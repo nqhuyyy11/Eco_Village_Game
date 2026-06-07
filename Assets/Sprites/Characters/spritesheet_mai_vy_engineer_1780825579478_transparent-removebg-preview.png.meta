@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 475b95b744538f24dbf0194bc5108b75
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5655863237604430222
+    second: spritesheet_mai_vy_engineer_1780825579478_transparent-removebg-preview_0
+  - first:
+      213: 5749328316678341044
+    second: spritesheet_mai_vy_engineer_1780825579478_transparent-removebg-preview_1
+  - first:
+      213: 4040854802458651253
+    second: spritesheet_mai_vy_engineer_1780825579478_transparent-removebg-preview_2
+  - first:
+      213: -3715233298684258778
+    second: spritesheet_mai_vy_engineer_1780825579478_transparent-removebg-preview_3
+  - first:
+      213: -4468250260349400716
+    second: spritesheet_mai_vy_engineer_1780825579478_transparent-removebg-preview_4
+  - first:
+      213: 3636789096148681200
+    second: spritesheet_mai_vy_engineer_1780825579478_transparent-removebg-preview_5
+  - first:
+      213: 4031688431105152585
+    second: spritesheet_mai_vy_engineer_1780825579478_transparent-removebg-preview_6
+  - first:
+      213: -8554892371966164166
+    second: spritesheet_mai_vy_engineer_1780825579478_transparent-removebg-preview_7
+  - first:
+      213: -7490754560406609669
+    second: spritesheet_mai_vy_engineer_1780825579478_transparent-removebg-preview_8
+  - first:
+      213: -6553378269781344474
+    second: spritesheet_mai_vy_engineer_1780825579478_transparent-removebg-preview_9
+  - first:
+      213: 3207889447881877949
+    second: spritesheet_mai_vy_engineer_1780825579478_transparent-removebg-preview_10
+  - first:
+      213: 9043018766198011820
+    second: spritesheet_mai_vy_engineer_1780825579478_transparent-removebg-preview_11
+  - first:
+      213: -2186137275066673796
+    second: spritesheet_mai_vy_engineer_1780825579478_transparent-removebg-preview_12
+  - first:
+      213: -1424769128258617485
+    second: spritesheet_mai_vy_engineer_1780825579478_transparent-removebg-preview_13
+  - first:
+      213: 4426438570986211939
+    second: spritesheet_mai_vy_engineer_1780825579478_transparent-removebg-preview_14
+  - first:
+      213: 4831999302261658481
+    second: spritesheet_mai_vy_engineer_1780825579478_transparent-removebg-preview_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spritesheet_mai_vy_engineer_1780825579478_transparent-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 376
+        width: 70
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27ea568f9565281b0800000000000000
+      internalID: -5655863237604430222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_mai_vy_engineer_1780825579478_transparent-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 376
+        width: 99
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b105bc84a7b9cf40800000000000000
+      internalID: 5749328316678341044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_mai_vy_engineer_1780825579478_transparent-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 358
+        width: 154
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57aaa719800041830800000000000000
+      internalID: 4040854802458651253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_mai_vy_engineer_1780825579478_transparent-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 376
+        width: 88
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 626d83ebff6d07cc0800000000000000
+      internalID: -3715233298684258778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_mai_vy_engineer_1780825579478_transparent-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 245
+        width: 97
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 479c350ef069df1c0800000000000000
+      internalID: -4468250260349400716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_mai_vy_engineer_1780825579478_transparent-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 251
+        width: 63
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f1c4f61a68787230800000000000000
+      internalID: 3636789096148681200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_mai_vy_engineer_1780825579478_transparent-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 218
+        width: 101
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 946131d644f63f730800000000000000
+      internalID: 4031688431105152585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_mai_vy_engineer_1780825579478_transparent-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 249
+        width: 59
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a330245a6bae64980800000000000000
+      internalID: -8554892371966164166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_mai_vy_engineer_1780825579478_transparent-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 126
+        width: 80
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf0a35f3a6e7b0890800000000000000
+      internalID: -7490754560406609669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_mai_vy_engineer_1780825579478_transparent-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 126
+        width: 102
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62f3be65f29bd05a0800000000000000
+      internalID: -6553378269781344474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_mai_vy_engineer_1780825579478_transparent-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 126
+        width: 53
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db929bbe476b48c20800000000000000
+      internalID: 3207889447881877949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_mai_vy_engineer_1780825579478_transparent-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 124
+        width: 99
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca77c68e7a14f7d70800000000000000
+      internalID: 9043018766198011820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_mai_vy_engineer_1780825579478_transparent-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1
+        width: 97
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7519612bb749a1e0800000000000000
+      internalID: -2186137275066673796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_mai_vy_engineer_1780825579478_transparent-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 0
+        width: 96
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37fb33fc6043a3ce0800000000000000
+      internalID: -1424769128258617485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_mai_vy_engineer_1780825579478_transparent-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 1
+        width: 58
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36a88b39d6edd6d30800000000000000
+      internalID: 4426438570986211939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_mai_vy_engineer_1780825579478_transparent-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 1
+        width: 80
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 173dd3ea3c5be0340800000000000000
+      internalID: 4831999302261658481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      spritesheet_mai_vy_engineer_1780825579478_transparent-removebg-preview_0: -5655863237604430222
+      spritesheet_mai_vy_engineer_1780825579478_transparent-removebg-preview_1: 5749328316678341044
+      spritesheet_mai_vy_engineer_1780825579478_transparent-removebg-preview_10: 3207889447881877949
+      spritesheet_mai_vy_engineer_1780825579478_transparent-removebg-preview_11: 9043018766198011820
+      spritesheet_mai_vy_engineer_1780825579478_transparent-removebg-preview_12: -2186137275066673796
+      spritesheet_mai_vy_engineer_1780825579478_transparent-removebg-preview_13: -1424769128258617485
+      spritesheet_mai_vy_engineer_1780825579478_transparent-removebg-preview_14: 4426438570986211939
+      spritesheet_mai_vy_engineer_1780825579478_transparent-removebg-preview_15: 4831999302261658481
+      spritesheet_mai_vy_engineer_1780825579478_transparent-removebg-preview_2: 4040854802458651253
+      spritesheet_mai_vy_engineer_1780825579478_transparent-removebg-preview_3: -3715233298684258778
+      spritesheet_mai_vy_engineer_1780825579478_transparent-removebg-preview_4: -4468250260349400716
+      spritesheet_mai_vy_engineer_1780825579478_transparent-removebg-preview_5: 3636789096148681200
+      spritesheet_mai_vy_engineer_1780825579478_transparent-removebg-preview_6: 4031688431105152585
+      spritesheet_mai_vy_engineer_1780825579478_transparent-removebg-preview_7: -8554892371966164166
+      spritesheet_mai_vy_engineer_1780825579478_transparent-removebg-preview_8: -7490754560406609669
+      spritesheet_mai_vy_engineer_1780825579478_transparent-removebg-preview_9: -6553378269781344474
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

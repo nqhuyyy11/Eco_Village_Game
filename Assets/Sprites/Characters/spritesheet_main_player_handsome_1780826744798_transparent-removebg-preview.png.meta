@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: e1eb448114a360e48b172cb6c11fdfda
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9131212326287052265
+    second: spritesheet_main_player_handsome_1780826744798_transparent-removebg-preview_0
+  - first:
+      213: -2970038305657889350
+    second: spritesheet_main_player_handsome_1780826744798_transparent-removebg-preview_1
+  - first:
+      213: 8071877224286607100
+    second: spritesheet_main_player_handsome_1780826744798_transparent-removebg-preview_2
+  - first:
+      213: 1806964833184170545
+    second: spritesheet_main_player_handsome_1780826744798_transparent-removebg-preview_3
+  - first:
+      213: -2817876387294194572
+    second: spritesheet_main_player_handsome_1780826744798_transparent-removebg-preview_4
+  - first:
+      213: -4960171619921724346
+    second: spritesheet_main_player_handsome_1780826744798_transparent-removebg-preview_5
+  - first:
+      213: 2965165801130308957
+    second: spritesheet_main_player_handsome_1780826744798_transparent-removebg-preview_6
+  - first:
+      213: 2334217813801578193
+    second: spritesheet_main_player_handsome_1780826744798_transparent-removebg-preview_7
+  - first:
+      213: -5480541425279898698
+    second: spritesheet_main_player_handsome_1780826744798_transparent-removebg-preview_8
+  - first:
+      213: 4471714083607407882
+    second: spritesheet_main_player_handsome_1780826744798_transparent-removebg-preview_9
+  - first:
+      213: -4403754230844454379
+    second: spritesheet_main_player_handsome_1780826744798_transparent-removebg-preview_10
+  - first:
+      213: -3937688907985493654
+    second: spritesheet_main_player_handsome_1780826744798_transparent-removebg-preview_11
+  - first:
+      213: -3045054870608665108
+    second: spritesheet_main_player_handsome_1780826744798_transparent-removebg-preview_12
+  - first:
+      213: 914753435818127738
+    second: spritesheet_main_player_handsome_1780826744798_transparent-removebg-preview_13
+  - first:
+      213: 5211193575297740960
+    second: spritesheet_main_player_handsome_1780826744798_transparent-removebg-preview_14
+  - first:
+      213: -5981558444360359717
+    second: spritesheet_main_player_handsome_1780826744798_transparent-removebg-preview_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spritesheet_main_player_handsome_1780826744798_transparent-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 375
+        width: 56
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 712fdfab4ca674180800000000000000
+      internalID: -9131212326287052265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_main_player_handsome_1780826744798_transparent-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 375
+        width: 75
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abd55fd95ed48c6d0800000000000000
+      internalID: -2970038305657889350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_main_player_handsome_1780826744798_transparent-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 375
+        width: 57
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf65b20a191150070800000000000000
+      internalID: 8071877224286607100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_main_player_handsome_1780826744798_transparent-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 375
+        width: 106
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 132c09b21f0a31910800000000000000
+      internalID: 1806964833184170545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_main_player_handsome_1780826744798_transparent-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 122
+        width: 127
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4745e520b54e4e8d0800000000000000
+      internalID: -2817876387294194572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_main_player_handsome_1780826744798_transparent-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 251
+        width: 78
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64c7799113ee92bb0800000000000000
+      internalID: -4960171619921724346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_main_player_handsome_1780826744798_transparent-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 251
+        width: 107
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5532840692662920800000000000000
+      internalID: 2965165801130308957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_main_player_handsome_1780826744798_transparent-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 125
+        width: 82
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1de28040cbec46020800000000000000
+      internalID: 2334217813801578193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_main_player_handsome_1780826744798_transparent-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 250
+        width: 95
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bbe0616c9431f3b0800000000000000
+      internalID: -5480541425279898698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_main_player_handsome_1780826744798_transparent-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 125
+        width: 56
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0de7825448be0e30800000000000000
+      internalID: 4471714083607407882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_main_player_handsome_1780826744798_transparent-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 122
+        width: 107
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51a8460fbd8b2e2c0800000000000000
+      internalID: -4403754230844454379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_main_player_handsome_1780826744798_transparent-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 245
+        width: 106
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 5, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a61678b0dc48a59c0800000000000000
+      internalID: -3937688907985493654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_main_player_handsome_1780826744798_transparent-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 0
+        width: 77
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce52cc38abacdb5d0800000000000000
+      internalID: -3045054870608665108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_main_player_handsome_1780826744798_transparent-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 0
+        width: 77
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a71f10f376bd1bc00800000000000000
+      internalID: 914753435818127738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_main_player_handsome_1780826744798_transparent-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 0
+        width: 95
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a07b6752f0e15840800000000000000
+      internalID: 5211193575297740960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_main_player_handsome_1780826744798_transparent-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 0
+        width: 95
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd0a9a8594c3dfca0800000000000000
+      internalID: -5981558444360359717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 2ab8aa8f5a3b5594884dde3022b24d13
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      spritesheet_main_player_handsome_1780826744798_transparent-removebg-preview_0: -9131212326287052265
+      spritesheet_main_player_handsome_1780826744798_transparent-removebg-preview_1: -2970038305657889350
+      spritesheet_main_player_handsome_1780826744798_transparent-removebg-preview_10: -4403754230844454379
+      spritesheet_main_player_handsome_1780826744798_transparent-removebg-preview_11: -3937688907985493654
+      spritesheet_main_player_handsome_1780826744798_transparent-removebg-preview_12: -3045054870608665108
+      spritesheet_main_player_handsome_1780826744798_transparent-removebg-preview_13: 914753435818127738
+      spritesheet_main_player_handsome_1780826744798_transparent-removebg-preview_14: 5211193575297740960
+      spritesheet_main_player_handsome_1780826744798_transparent-removebg-preview_15: -5981558444360359717
+      spritesheet_main_player_handsome_1780826744798_transparent-removebg-preview_2: 8071877224286607100
+      spritesheet_main_player_handsome_1780826744798_transparent-removebg-preview_3: 1806964833184170545
+      spritesheet_main_player_handsome_1780826744798_transparent-removebg-preview_4: -2817876387294194572
+      spritesheet_main_player_handsome_1780826744798_transparent-removebg-preview_5: -4960171619921724346
+      spritesheet_main_player_handsome_1780826744798_transparent-removebg-preview_6: 2965165801130308957
+      spritesheet_main_player_handsome_1780826744798_transparent-removebg-preview_7: 2334217813801578193
+      spritesheet_main_player_handsome_1780826744798_transparent-removebg-preview_8: -5480541425279898698
+      spritesheet_main_player_handsome_1780826744798_transparent-removebg-preview_9: 4471714083607407882
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -41,10 +41,10 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: titleSet
+  - name: Layer1
     uniqueID: 1044216607
     locked: 0
-  - name: pic_avatar
+  - name: Layer2
     uniqueID: 3647844547
     locked: 0
   m_RenderingLayers:

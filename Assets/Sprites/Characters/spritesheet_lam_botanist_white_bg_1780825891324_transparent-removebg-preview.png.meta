@@ -1,0 +1,535 @@
+fileFormatVersion: 2
+guid: 023f17214ba1fa1408b482f383893f40
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4040146041859943013
+    second: spritesheet_lam_botanist_white_bg_1780825891324_transparent-removebg-preview_0
+  - first:
+      213: -5299075154722721999
+    second: spritesheet_lam_botanist_white_bg_1780825891324_transparent-removebg-preview_1
+  - first:
+      213: 3540951510790096778
+    second: spritesheet_lam_botanist_white_bg_1780825891324_transparent-removebg-preview_2
+  - first:
+      213: -4570214614943138601
+    second: spritesheet_lam_botanist_white_bg_1780825891324_transparent-removebg-preview_3
+  - first:
+      213: -2384386173379320173
+    second: spritesheet_lam_botanist_white_bg_1780825891324_transparent-removebg-preview_4
+  - first:
+      213: -8214890206052059814
+    second: spritesheet_lam_botanist_white_bg_1780825891324_transparent-removebg-preview_5
+  - first:
+      213: 9144218524117825784
+    second: spritesheet_lam_botanist_white_bg_1780825891324_transparent-removebg-preview_6
+  - first:
+      213: -4227836851685593228
+    second: spritesheet_lam_botanist_white_bg_1780825891324_transparent-removebg-preview_7
+  - first:
+      213: -5565174629591008206
+    second: spritesheet_lam_botanist_white_bg_1780825891324_transparent-removebg-preview_8
+  - first:
+      213: -5965718738687037168
+    second: spritesheet_lam_botanist_white_bg_1780825891324_transparent-removebg-preview_9
+  - first:
+      213: -4858257197469682645
+    second: spritesheet_lam_botanist_white_bg_1780825891324_transparent-removebg-preview_10
+  - first:
+      213: -6667686840174096259
+    second: spritesheet_lam_botanist_white_bg_1780825891324_transparent-removebg-preview_11
+  - first:
+      213: 1039672410213113921
+    second: spritesheet_lam_botanist_white_bg_1780825891324_transparent-removebg-preview_12
+  - first:
+      213: 3189967637847106911
+    second: spritesheet_lam_botanist_white_bg_1780825891324_transparent-removebg-preview_13
+  - first:
+      213: -3102530735662538867
+    second: spritesheet_lam_botanist_white_bg_1780825891324_transparent-removebg-preview_14
+  - first:
+      213: 6616953243404879014
+    second: spritesheet_lam_botanist_white_bg_1780825891324_transparent-removebg-preview_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spritesheet_lam_botanist_white_bg_1780825891324_transparent-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 375
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56a23c16b6b711830800000000000000
+      internalID: 4040146041859943013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_lam_botanist_white_bg_1780825891324_transparent-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 375
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13f67a4f837e576b0800000000000000
+      internalID: -5299075154722721999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_lam_botanist_white_bg_1780825891324_transparent-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 375
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a87c68763acf32130800000000000000
+      internalID: 3540951510790096778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_lam_botanist_white_bg_1780825891324_transparent-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 375
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dcf30195065390c0800000000000000
+      internalID: -4570214614943138601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_lam_botanist_white_bg_1780825891324_transparent-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 250
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3966f588865f8eed0800000000000000
+      internalID: -2384386173379320173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_lam_botanist_white_bg_1780825891324_transparent-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 250
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a557e67c1e8defd80800000000000000
+      internalID: -8214890206052059814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_lam_botanist_white_bg_1780825891324_transparent-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 250
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f8f69eac4ac6ee70800000000000000
+      internalID: 9144218524117825784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_lam_botanist_white_bg_1780825891324_transparent-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 250
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47f69fe88c4b355c0800000000000000
+      internalID: -4227836851685593228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_lam_botanist_white_bg_1780825891324_transparent-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 125
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23c3632f82784c2b0800000000000000
+      internalID: -5565174629591008206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_lam_botanist_white_bg_1780825891324_transparent-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 125
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 011faa63a62853da0800000000000000
+      internalID: -5965718738687037168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_lam_botanist_white_bg_1780825891324_transparent-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 125
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b24b55da1d0049cb0800000000000000
+      internalID: -4858257197469682645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_lam_botanist_white_bg_1780825891324_transparent-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 125
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7050e1552e9773a0800000000000000
+      internalID: -6667686840174096259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_lam_botanist_white_bg_1780825891324_transparent-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 140e6857c88ad6e00800000000000000
+      internalID: 1039672410213113921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_lam_botanist_white_bg_1780825891324_transparent-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 0
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f556eda5aaa054c20800000000000000
+      internalID: 3189967637847106911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_lam_botanist_white_bg_1780825891324_transparent-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 0
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8f5a1cdbb891f4d0800000000000000
+      internalID: -3102530735662538867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_lam_botanist_white_bg_1780825891324_transparent-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 0
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a44480bae324db50800000000000000
+      internalID: 6616953243404879014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5f1bf7b5e5b7b4841bcdedf340b548a2
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":4.0},"gridSpriteSize":{"x":125.0,"y":125.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      spritesheet_lam_botanist_white_bg_1780825891324_transparent-removebg-preview_0: 4040146041859943013
+      spritesheet_lam_botanist_white_bg_1780825891324_transparent-removebg-preview_1: -5299075154722721999
+      spritesheet_lam_botanist_white_bg_1780825891324_transparent-removebg-preview_10: -4858257197469682645
+      spritesheet_lam_botanist_white_bg_1780825891324_transparent-removebg-preview_11: -6667686840174096259
+      spritesheet_lam_botanist_white_bg_1780825891324_transparent-removebg-preview_12: 1039672410213113921
+      spritesheet_lam_botanist_white_bg_1780825891324_transparent-removebg-preview_13: 3189967637847106911
+      spritesheet_lam_botanist_white_bg_1780825891324_transparent-removebg-preview_14: -3102530735662538867
+      spritesheet_lam_botanist_white_bg_1780825891324_transparent-removebg-preview_15: 6616953243404879014
+      spritesheet_lam_botanist_white_bg_1780825891324_transparent-removebg-preview_2: 3540951510790096778
+      spritesheet_lam_botanist_white_bg_1780825891324_transparent-removebg-preview_3: -4570214614943138601
+      spritesheet_lam_botanist_white_bg_1780825891324_transparent-removebg-preview_4: -2384386173379320173
+      spritesheet_lam_botanist_white_bg_1780825891324_transparent-removebg-preview_5: -8214890206052059814
+      spritesheet_lam_botanist_white_bg_1780825891324_transparent-removebg-preview_6: 9144218524117825784
+      spritesheet_lam_botanist_white_bg_1780825891324_transparent-removebg-preview_7: -4227836851685593228
+      spritesheet_lam_botanist_white_bg_1780825891324_transparent-removebg-preview_8: -5565174629591008206
+      spritesheet_lam_botanist_white_bg_1780825891324_transparent-removebg-preview_9: -5965718738687037168
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
