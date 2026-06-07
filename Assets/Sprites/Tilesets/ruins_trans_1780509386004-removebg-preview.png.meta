@@ -1,0 +1,1625 @@
+fileFormatVersion: 2
+guid: f1e679ab1574066448574d3e07fb6bb3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8705695276364946505
+    second: ruins_trans_1780509386004-removebg-preview_0
+  - first:
+      213: -3292293833536432648
+    second: ruins_trans_1780509386004-removebg-preview_1
+  - first:
+      213: -6423509118001455780
+    second: ruins_trans_1780509386004-removebg-preview_2
+  - first:
+      213: 5857768204844153991
+    second: ruins_trans_1780509386004-removebg-preview_3
+  - first:
+      213: -3872911968400416508
+    second: ruins_trans_1780509386004-removebg-preview_4
+  - first:
+      213: 6621721674294086532
+    second: ruins_trans_1780509386004-removebg-preview_5
+  - first:
+      213: 3408393395964651449
+    second: ruins_trans_1780509386004-removebg-preview_6
+  - first:
+      213: -6051888713751908706
+    second: ruins_trans_1780509386004-removebg-preview_7
+  - first:
+      213: 6640378509291494637
+    second: ruins_trans_1780509386004-removebg-preview_8
+  - first:
+      213: -1178948829586042202
+    second: ruins_trans_1780509386004-removebg-preview_9
+  - first:
+      213: 4484057492114537886
+    second: ruins_trans_1780509386004-removebg-preview_10
+  - first:
+      213: 6825247417628534440
+    second: ruins_trans_1780509386004-removebg-preview_11
+  - first:
+      213: -7841837248004419518
+    second: ruins_trans_1780509386004-removebg-preview_12
+  - first:
+      213: 2407299061040688233
+    second: ruins_trans_1780509386004-removebg-preview_13
+  - first:
+      213: -3592489017429391631
+    second: ruins_trans_1780509386004-removebg-preview_14
+  - first:
+      213: -4238438623021505140
+    second: ruins_trans_1780509386004-removebg-preview_15
+  - first:
+      213: -8950786240640066751
+    second: ruins_trans_1780509386004-removebg-preview_16
+  - first:
+      213: 1882090843170760633
+    second: ruins_trans_1780509386004-removebg-preview_17
+  - first:
+      213: -3494164553996600532
+    second: ruins_trans_1780509386004-removebg-preview_18
+  - first:
+      213: -2581408236799299361
+    second: ruins_trans_1780509386004-removebg-preview_19
+  - first:
+      213: -8386965380143420725
+    second: ruins_trans_1780509386004-removebg-preview_20
+  - first:
+      213: 6152967842648439812
+    second: ruins_trans_1780509386004-removebg-preview_21
+  - first:
+      213: 4372121727376954333
+    second: ruins_trans_1780509386004-removebg-preview_22
+  - first:
+      213: -1727526373791031072
+    second: ruins_trans_1780509386004-removebg-preview_23
+  - first:
+      213: 6737530974554792671
+    second: ruins_trans_1780509386004-removebg-preview_24
+  - first:
+      213: 3108470820308111509
+    second: ruins_trans_1780509386004-removebg-preview_25
+  - first:
+      213: 7948185176657064380
+    second: ruins_trans_1780509386004-removebg-preview_26
+  - first:
+      213: -7541628424272230245
+    second: ruins_trans_1780509386004-removebg-preview_27
+  - first:
+      213: 3635406849829539854
+    second: ruins_trans_1780509386004-removebg-preview_28
+  - first:
+      213: -5667554719848565006
+    second: ruins_trans_1780509386004-removebg-preview_29
+  - first:
+      213: -4373253433053490061
+    second: ruins_trans_1780509386004-removebg-preview_30
+  - first:
+      213: 4872926688554149074
+    second: ruins_trans_1780509386004-removebg-preview_31
+  - first:
+      213: -5903625202714845396
+    second: ruins_trans_1780509386004-removebg-preview_32
+  - first:
+      213: 4876300632694638453
+    second: ruins_trans_1780509386004-removebg-preview_33
+  - first:
+      213: -8305827490850814199
+    second: ruins_trans_1780509386004-removebg-preview_34
+  - first:
+      213: 2715510673937618821
+    second: ruins_trans_1780509386004-removebg-preview_35
+  - first:
+      213: 9030011587308220143
+    second: ruins_trans_1780509386004-removebg-preview_36
+  - first:
+      213: -5654269034019883781
+    second: ruins_trans_1780509386004-removebg-preview_37
+  - first:
+      213: -4314962152618024650
+    second: ruins_trans_1780509386004-removebg-preview_38
+  - first:
+      213: -7488850717062658334
+    second: ruins_trans_1780509386004-removebg-preview_39
+  - first:
+      213: -7268116329600918645
+    second: ruins_trans_1780509386004-removebg-preview_40
+  - first:
+      213: 2286743262165987543
+    second: ruins_trans_1780509386004-removebg-preview_41
+  - first:
+      213: 4825309554913394572
+    second: ruins_trans_1780509386004-removebg-preview_42
+  - first:
+      213: -4650461088673981192
+    second: ruins_trans_1780509386004-removebg-preview_43
+  - first:
+      213: -7895860464750746087
+    second: ruins_trans_1780509386004-removebg-preview_44
+  - first:
+      213: -8855207054871723298
+    second: ruins_trans_1780509386004-removebg-preview_45
+  - first:
+      213: -4403466332773485080
+    second: ruins_trans_1780509386004-removebg-preview_46
+  - first:
+      213: 8098324642654586100
+    second: ruins_trans_1780509386004-removebg-preview_47
+  - first:
+      213: -7479266686399951918
+    second: ruins_trans_1780509386004-removebg-preview_48
+  - first:
+      213: 3209566764679761689
+    second: ruins_trans_1780509386004-removebg-preview_49
+  - first:
+      213: 614732538133424054
+    second: ruins_trans_1780509386004-removebg-preview_50
+  - first:
+      213: -153671955999178636
+    second: ruins_trans_1780509386004-removebg-preview_51
+  - first:
+      213: -2929667669491419460
+    second: ruins_trans_1780509386004-removebg-preview_52
+  - first:
+      213: -2725163130411613943
+    second: ruins_trans_1780509386004-removebg-preview_53
+  - first:
+      213: 8934189228576417617
+    second: ruins_trans_1780509386004-removebg-preview_54
+  - first:
+      213: 8757106671307103728
+    second: ruins_trans_1780509386004-removebg-preview_55
+  - first:
+      213: 7063319034284060493
+    second: ruins_trans_1780509386004-removebg-preview_56
+  - first:
+      213: 1042035269499851349
+    second: ruins_trans_1780509386004-removebg-preview_57
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ruins_trans_1780509386004-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 423
+        width: 86
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94c5786aab7d0d870800000000000000
+      internalID: 8705695276364946505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_trans_1780509386004-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 417
+        width: 89
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f51ad3a33c6f42d0800000000000000
+      internalID: -3292293833536432648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_trans_1780509386004-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 415
+        width: 63
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5d5a0a8d7c1bd6a0800000000000000
+      internalID: -6423509118001455780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_trans_1780509386004-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 443
+        width: 78
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78c30528529fa4150800000000000000
+      internalID: 5857768204844153991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_trans_1780509386004-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 445
+        width: 74
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40162259517a04ac0800000000000000
+      internalID: -3872911968400416508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_trans_1780509386004-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 443
+        width: 69
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48bcdc587c415eb50800000000000000
+      internalID: 6621721674294086532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_trans_1780509386004-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 335
+        width: 89
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b7a2453cbb0d4f20800000000000000
+      internalID: 3408393395964651449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_trans_1780509386004-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 323
+        width: 87
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9e2f94774f530ca0800000000000000
+      internalID: -6051888713751908706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_trans_1780509386004-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 327
+        width: 57
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dec157c621d572c50800000000000000
+      internalID: 6640378509291494637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_trans_1780509386004-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 374
+        width: 78
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a2592c294883afe0800000000000000
+      internalID: -1178948829586042202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_trans_1780509386004-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 369
+        width: 84
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9d7ae118829a3e30800000000000000
+      internalID: 4484057492114537886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_trans_1780509386004-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 374
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a6a6e75d5628be50800000000000000
+      internalID: 6825247417628534440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_trans_1780509386004-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 252
+        width: 84
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 240154e12923c2390800000000000000
+      internalID: -7841837248004419518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_trans_1780509386004-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 255
+        width: 89
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96c2679ddb1786120800000000000000
+      internalID: 2407299061040688233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_trans_1780509386004-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 301
+        width: 87
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f601a0c54ae42ec0800000000000000
+      internalID: -3592489017429391631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_trans_1780509386004-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 314
+        width: 83
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c85e180578a0e25c0800000000000000
+      internalID: -4238438623021505140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_trans_1780509386004-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 315
+        width: 64
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14bd132665b68c380800000000000000
+      internalID: -8950786240640066751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_trans_1780509386004-removebg-preview_17
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 251
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b7653e66a78e1a10800000000000000
+      internalID: 1882090843170760633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_trans_1780509386004-removebg-preview_18
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 253
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2b754cd9db328fc0800000000000000
+      internalID: -3494164553996600532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_trans_1780509386004-removebg-preview_19
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 250
+        width: 65
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd07f41b2eefc2cd0800000000000000
+      internalID: -2581408236799299361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_trans_1780509386004-removebg-preview_20
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 251
+        width: 99
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bca6d0d3c638b9b80800000000000000
+      internalID: -8386965380143420725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_trans_1780509386004-removebg-preview_21
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 253
+        width: 56
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40c367f27abb36550800000000000000
+      internalID: 6152967842648439812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_trans_1780509386004-removebg-preview_22
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 200
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd3121beb85ecac30800000000000000
+      internalID: 4372121727376954333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_trans_1780509386004-removebg-preview_23
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 202
+        width: 47
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e021167ae79608e0800000000000000
+      internalID: -1727526373791031072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_trans_1780509386004-removebg-preview_24
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 200
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd2a78179b4808d50800000000000000
+      internalID: 6737530974554792671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_trans_1780509386004-removebg-preview_25
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 200
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 590d12fddb1832b20800000000000000
+      internalID: 3108470820308111509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_trans_1780509386004-removebg-preview_26
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 202
+        width: 54
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb17baf8e40ad4e60800000000000000
+      internalID: 7948185176657064380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_trans_1780509386004-removebg-preview_27
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 200
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b98c347c7e0c65790800000000000000
+      internalID: -7541628424272230245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_trans_1780509386004-removebg-preview_28
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 199
+        width: 72
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e009c1ac44f837230800000000000000
+      internalID: 3635406849829539854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_trans_1780509386004-removebg-preview_29
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 198
+        width: 84
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f67652a20dc851b0800000000000000
+      internalID: -5667554719848565006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_trans_1780509386004-removebg-preview_30
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 198
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 374d6125c251f43c0800000000000000
+      internalID: -4373253433053490061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_trans_1780509386004-removebg-preview_31
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 150
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d46acf510d10a340800000000000000
+      internalID: 4872926688554149074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_trans_1780509386004-removebg-preview_32
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 150
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2f5329282c121ea0800000000000000
+      internalID: -5903625202714845396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_trans_1780509386004-removebg-preview_33
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 150
+        width: 49
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 577c6c5f6991ca340800000000000000
+      internalID: 4876300632694638453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_trans_1780509386004-removebg-preview_34
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 150
+        width: 52
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 907c92a37e5cbbc80800000000000000
+      internalID: -8305827490850814199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_trans_1780509386004-removebg-preview_35
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 150
+        width: 67
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58755df029e6fa520800000000000000
+      internalID: 2715510673937618821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_trans_1780509386004-removebg-preview_36
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 150
+        width: 37
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feeea2312bb015d70800000000000000
+      internalID: 9030011587308220143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_trans_1780509386004-removebg-preview_37
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 150
+        width: 58
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf4f0ca65400881b0800000000000000
+      internalID: -5654269034019883781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_trans_1780509386004-removebg-preview_38
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 157
+        width: 54
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 631a2f9a8cc2e14c0800000000000000
+      internalID: -4314962152618024650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_trans_1780509386004-removebg-preview_39
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 99
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e60d8153f1421890800000000000000
+      internalID: -7488850717062658334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_trans_1780509386004-removebg-preview_40
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 97
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8bdbe3d4b6722b90800000000000000
+      internalID: -7268116329600918645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_trans_1780509386004-removebg-preview_41
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 97
+        width: 63
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d0fbe991e42cbf10800000000000000
+      internalID: 2286743262165987543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_trans_1780509386004-removebg-preview_42
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 97
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8f39ef7971f6f240800000000000000
+      internalID: 4825309554913394572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_trans_1780509386004-removebg-preview_43
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 97
+        width: 75
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fc9fcf674e367fb0800000000000000
+      internalID: -4650461088673981192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_trans_1780509386004-removebg-preview_44
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 97
+        width: 92
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9162b7acdb44c6290800000000000000
+      internalID: -7895860464750746087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_trans_1780509386004-removebg-preview_45
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 95
+        width: 45
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed286d9b91cfb1580800000000000000
+      internalID: -8855207054871723298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_trans_1780509386004-removebg-preview_46
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 96
+        width: 49
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e5f4ae63beb3e2c0800000000000000
+      internalID: -4403466332773485080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_trans_1780509386004-removebg-preview_47
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 96
+        width: 56
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f408311b57036070800000000000000
+      internalID: 8098324642654586100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_trans_1780509386004-removebg-preview_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 52
+        width: 93
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dbc7b8539e443890800000000000000
+      internalID: -7479266686399951918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_trans_1780509386004-removebg-preview_49
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 51
+        width: 100
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91f03aba7fbaa8c20800000000000000
+      internalID: 3209566764679761689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_trans_1780509386004-removebg-preview_50
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 49
+        width: 106
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b721578cf7f78800800000000000000
+      internalID: 614732538133424054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_trans_1780509386004-removebg-preview_51
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 45
+        width: 86
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 470cab29b2c0eddf0800000000000000
+      internalID: -153671955999178636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_trans_1780509386004-removebg-preview_52
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 50
+        width: 49
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb67402d6cab757d0800000000000000
+      internalID: -2929667669491419460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_trans_1780509386004-removebg-preview_53
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 1
+        width: 64
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90103d842964e2ad0800000000000000
+      internalID: -2725163130411613943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_trans_1780509386004-removebg-preview_54
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2
+        width: 87
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1572b6d94cd9cfb70800000000000000
+      internalID: 8934189228576417617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_trans_1780509386004-removebg-preview_55
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 0
+        width: 100
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fd9673de1e778970800000000000000
+      internalID: 8757106671307103728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_trans_1780509386004-removebg-preview_56
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 0
+        width: 111
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4fa1c51d33f50260800000000000000
+      internalID: 7063319034284060493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruins_trans_1780509386004-removebg-preview_57
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 1
+        width: 90
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55297f18e8d067e00800000000000000
+      internalID: 1042035269499851349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ruins_trans_1780509386004-removebg-preview_0: 8705695276364946505
+      ruins_trans_1780509386004-removebg-preview_1: -3292293833536432648
+      ruins_trans_1780509386004-removebg-preview_10: 4484057492114537886
+      ruins_trans_1780509386004-removebg-preview_11: 6825247417628534440
+      ruins_trans_1780509386004-removebg-preview_12: -7841837248004419518
+      ruins_trans_1780509386004-removebg-preview_13: 2407299061040688233
+      ruins_trans_1780509386004-removebg-preview_14: -3592489017429391631
+      ruins_trans_1780509386004-removebg-preview_15: -4238438623021505140
+      ruins_trans_1780509386004-removebg-preview_16: -8950786240640066751
+      ruins_trans_1780509386004-removebg-preview_17: 1882090843170760633
+      ruins_trans_1780509386004-removebg-preview_18: -3494164553996600532
+      ruins_trans_1780509386004-removebg-preview_19: -2581408236799299361
+      ruins_trans_1780509386004-removebg-preview_2: -6423509118001455780
+      ruins_trans_1780509386004-removebg-preview_20: -8386965380143420725
+      ruins_trans_1780509386004-removebg-preview_21: 6152967842648439812
+      ruins_trans_1780509386004-removebg-preview_22: 4372121727376954333
+      ruins_trans_1780509386004-removebg-preview_23: -1727526373791031072
+      ruins_trans_1780509386004-removebg-preview_24: 6737530974554792671
+      ruins_trans_1780509386004-removebg-preview_25: 3108470820308111509
+      ruins_trans_1780509386004-removebg-preview_26: 7948185176657064380
+      ruins_trans_1780509386004-removebg-preview_27: -7541628424272230245
+      ruins_trans_1780509386004-removebg-preview_28: 3635406849829539854
+      ruins_trans_1780509386004-removebg-preview_29: -5667554719848565006
+      ruins_trans_1780509386004-removebg-preview_3: 5857768204844153991
+      ruins_trans_1780509386004-removebg-preview_30: -4373253433053490061
+      ruins_trans_1780509386004-removebg-preview_31: 4872926688554149074
+      ruins_trans_1780509386004-removebg-preview_32: -5903625202714845396
+      ruins_trans_1780509386004-removebg-preview_33: 4876300632694638453
+      ruins_trans_1780509386004-removebg-preview_34: -8305827490850814199
+      ruins_trans_1780509386004-removebg-preview_35: 2715510673937618821
+      ruins_trans_1780509386004-removebg-preview_36: 9030011587308220143
+      ruins_trans_1780509386004-removebg-preview_37: -5654269034019883781
+      ruins_trans_1780509386004-removebg-preview_38: -4314962152618024650
+      ruins_trans_1780509386004-removebg-preview_39: -7488850717062658334
+      ruins_trans_1780509386004-removebg-preview_4: -3872911968400416508
+      ruins_trans_1780509386004-removebg-preview_40: -7268116329600918645
+      ruins_trans_1780509386004-removebg-preview_41: 2286743262165987543
+      ruins_trans_1780509386004-removebg-preview_42: 4825309554913394572
+      ruins_trans_1780509386004-removebg-preview_43: -4650461088673981192
+      ruins_trans_1780509386004-removebg-preview_44: -7895860464750746087
+      ruins_trans_1780509386004-removebg-preview_45: -8855207054871723298
+      ruins_trans_1780509386004-removebg-preview_46: -4403466332773485080
+      ruins_trans_1780509386004-removebg-preview_47: 8098324642654586100
+      ruins_trans_1780509386004-removebg-preview_48: -7479266686399951918
+      ruins_trans_1780509386004-removebg-preview_49: 3209566764679761689
+      ruins_trans_1780509386004-removebg-preview_5: 6621721674294086532
+      ruins_trans_1780509386004-removebg-preview_50: 614732538133424054
+      ruins_trans_1780509386004-removebg-preview_51: -153671955999178636
+      ruins_trans_1780509386004-removebg-preview_52: -2929667669491419460
+      ruins_trans_1780509386004-removebg-preview_53: -2725163130411613943
+      ruins_trans_1780509386004-removebg-preview_54: 8934189228576417617
+      ruins_trans_1780509386004-removebg-preview_55: 8757106671307103728
+      ruins_trans_1780509386004-removebg-preview_56: 7063319034284060493
+      ruins_trans_1780509386004-removebg-preview_57: 1042035269499851349
+      ruins_trans_1780509386004-removebg-preview_6: 3408393395964651449
+      ruins_trans_1780509386004-removebg-preview_7: -6051888713751908706
+      ruins_trans_1780509386004-removebg-preview_8: 6640378509291494637
+      ruins_trans_1780509386004-removebg-preview_9: -1178948829586042202
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

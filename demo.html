@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eco Village - Giao Diện Làng Du Lịch Sinh Thái 2D Pixel Art</title>
+    <meta name="description" content="Eco Village - Game mô phỏng xây dựng làng du lịch sinh thái phong cách pixel art 2D">
+    <link rel="stylesheet" href="demo.css">
+</head>
+<body class="theme-abandoned">
+
+    <!-- Alert / Toast Notification -->
+    <div id="alert-box" class="game-alert"></div>
+
+    <!-- ============================================================
+         FULL-SCREEN GAME VIEWPORT (Map fills the background)
+    ============================================================ -->
+    <div class="game-world">
+
+        <!-- Background Map Image -->
+        <div id="map-bg-image" class="map-bg-fullscreen" style="background-image: url('images/abandoned_village_bg.png');"></div>
+
+        <!-- Interactive Grid on top of map -->
+        <div id="map-grid-container" class="map-grid-overlay"></div>
+
+        <!-- ============================================================
+             TOP-LEFT: Player Profile HUD (Stardew Valley style)
+        ============================================================ -->
+        <div class="player-profile-hud" id="profile-hud">
+            <div class="profile-avatar-box">
+                <img src="images/avatar.png" class="profile-img" alt="Player Avatar" id="avatar-img">
+                <div class="profile-level" id="profile-level-label">Level 12</div>
+            </div>
+            <div class="profile-stats">
+                <div class="profile-name" id="profile-name">Elara</div>
+                <div class="profile-money">
+                    <span class="coin-icon">🪙</span>
+                    <span id="val-coins">4,250</span><span class="money-unit">g</span>
+                </div>
+                <div class="profile-energy-row">
+                    <span class="energy-bolt">⚡</span>
+                    <div class="energy-bar-bg">
+                        <div class="energy-bar-fill" id="energy-bar" style="width: 88%;"></div>
+                    </div>
+                    <span class="energy-pct" id="val-energy">88%</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Active Quest Badge (below Profile) -->
+        <div class="active-quest-hud" id="quest-hud">
+            <div class="quest-hud-icon">📜</div>
+            <div class="quest-hud-content">
+                <div class="quest-hud-label">Nhiệm Vụ Mới:</div>
+                <div class="quest-hud-name" id="active-quest-text">Khôi phục Giếng Cổ</div>
+            </div>
+        </div>
+
+        <!-- Top resource mini bar -->
+        <div class="top-resource-strip">
+            <div class="res-chip"><span>🍃</span><span id="val-eco">0</span> Eco</div>
+            <div class="res-chip"><span>🪵</span><span id="val-wood">10</span> Gỗ</div>
+            <div class="res-chip"><span>🪨</span><span id="val-stone">5</span> Đá</div>
+        </div>
+
+        <!-- ============================================================
+             BOTTOM ACTION MENU BAR (Stardew / Pixel style)
+        ============================================================ -->
+        <div class="bottom-action-bar" id="bottom-bar">
+            <button class="action-btn active" id="btn-build" data-panel="build" onclick="switchPanel('build')">
+                <div class="action-btn-icon">🔨</div>
+                <div class="action-btn-label">Xây Dựng</div>
+            </button>
+            <button class="action-btn" id="btn-map" data-panel="map" onclick="switchPanel('map')">
+                <div class="action-btn-icon">🗺️</div>
+                <div class="action-btn-label">Bản Đồ</div>
+            </button>
+            <button class="action-btn" id="btn-quests" data-panel="quests" onclick="switchPanel('quests')">
+                <div class="action-btn-icon">🍃</div>
+                <div class="action-btn-label">Nhiệm Vụ</div>
+            </button>
+            <button class="action-btn" id="btn-menu" data-panel="menu" onclick="switchPanel('menu')">
+                <div class="action-btn-icon">☰</div>
+                <div class="action-btn-label">Menu</div>
+            </button>
+        </div>
+
+        <!-- ============================================================
+             SLIDE-UP PANELS (appear above bottom bar)
+        ============================================================ -->
+
+        <!-- Panel: Build / Construction -->
+        <div class="slide-panel active" id="panel-build">
+            <div class="panel-header">
+                <span class="panel-title">🔨 Xây Dựng</span>
+                <button class="panel-close" onclick="closePanel()">✕</button>
+            </div>
+            <div class="panel-body">
+                <div class="tool-hint">Chọn công cụ rồi nhấn vào ô đất để thực hiện!</div>
+                <div class="build-tools-grid">
+                    <button class="tool-card active" data-tool="clear-trash" onclick="selectTool(this)">
+                        <div class="tool-card-icon">🧹</div>
+                        <div class="tool-card-name">Dọn Rác</div>
+                        <div class="tool-card-cost">-10⚡</div>
+                    </button>
+                    <button class="tool-card" data-tool="repair-ruin" onclick="selectTool(this)">
+                        <div class="tool-card-icon">🔨</div>
+                        <div class="tool-card-name">Sửa Cũ</div>
+                        <div class="tool-card-cost">-20⚡ -5🪵</div>
+                    </button>
+                    <button class="tool-card" data-tool="build-homestay" onclick="selectTool(this)">
+                        <div class="tool-card-icon">🏡</div>
+                        <div class="tool-card-name">Homestay</div>
+                        <div class="tool-card-cost">80🪙 10🪵 5🪨</div>
+                    </button>
+                    <button class="tool-card" data-tool="build-solar" onclick="selectTool(this)">
+                        <div class="tool-card-icon">☀️</div>
+                        <div class="tool-card-name">Năng Lượng</div>
+                        <div class="tool-card-cost">120🪙 8🪨</div>
+                    </button>
+                    <button class="tool-card" data-tool="build-cafe" onclick="selectTool(this)">
+                        <div class="tool-card-icon">☕</div>
+                        <div class="tool-card-name">Cà Phê</div>
+                        <div class="tool-card-cost">100🪙 15🪵</div>
+                    </button>
+                    <button class="tool-card" data-tool="build-well" onclick="selectTool(this)">
+                        <div class="tool-card-icon">⛲</div>
+                        <div class="tool-card-name">Giếng Cổ</div>
+                        <div class="tool-card-cost">50🪙 10🪨</div>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Panel: Map View -->
+        <div class="slide-panel" id="panel-map">
+            <div class="panel-header">
+                <span class="panel-title">🗺️ Bản Đồ Làng</span>
+                <button class="panel-close" onclick="closePanel()">✕</button>
+            </div>
+            <div class="panel-body">
+                <div class="map-overview">
+                    <div class="map-overview-header">
+                        <span id="map-status-label" class="map-status">🏚️ Làng Bỏ Hoang (U Ám)</span>
+                    </div>
+                    <div class="theme-toggle-row">
+                        <button id="theme-btn-abandoned" class="theme-btn active" onclick="switchTheme('abandoned')">🏚️ Làng Bỏ Hoang</button>
+                        <button id="theme-btn-restored" class="theme-btn" onclick="switchTheme('restored')">🍃 Làng Sinh Thái</button>
+                    </div>
+                    <div class="map-legend">
+                        <div class="legend-item"><span>🪰</span> Rác thải cần dọn</div>
+                        <div class="legend-item"><span>🏚️</span> Nhà cũ cần sửa</div>
+                        <div class="legend-item"><span>🟩</span> Đất trống để xây</div>
+                        <div class="legend-item"><span>🏡</span> Công trình hoàn chỉnh</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Panel: Quests -->
+        <div class="slide-panel" id="panel-quests">
+            <div class="panel-header">
+                <span class="panel-title">🍃 Nhiệm Vụ</span>
+                <button class="panel-close" onclick="closePanel()">✕</button>
+            </div>
+            <div class="panel-body">
+                <div class="quest-chapter">Chương I: Hồi Sinh Đất Hoang</div>
+                <div id="quest-list-container" class="quest-list"></div>
+                <div class="visitor-section">
+                    <div class="section-title">⭐ Đánh Giá Du Khách</div>
+                    <div id="review-list-container" class="review-list"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Panel: Main Menu -->
+        <div class="slide-panel" id="panel-menu">
+            <div class="panel-header">
+                <span class="panel-title">☰ Menu Chính</span>
+                <button class="panel-close" onclick="closePanel()">✕</button>
+            </div>
+            <div class="panel-body">
+                <!-- NPC Dialogue -->
+                <div class="npc-dialogue-box">
+                    <div class="npc-avatar-wrap">
+                        <img src="images/pixel_assets_sheet.png" class="npc-avatar-img" alt="NPC">
+                    </div>
+                    <div class="npc-dialogue-content">
+                        <div id="npc-name-field" class="npc-dialogue-name">Bác Trưởng Thôn</div>
+                        <div id="npc-text-field" class="npc-dialogue-text">Xin chào, hãy giúp ta sửa sang lại ngôi làng cổ xưa bị lãng quên này nhé.</div>
+                    </div>
+                </div>
+                <!-- Menu Actions -->
+                <div class="menu-actions-grid">
+                    <button class="menu-action-btn" onclick="showAlert('🎒 Túi đồ đang mở...')">
+                        <div class="menu-action-icon">🎒</div>
+                        <div>Túi Đồ</div>
+                    </button>
+                    <button class="menu-action-btn" onclick="showAlert('⚙️ Cài đặt đang mở...')">
+                        <div class="menu-action-icon">⚙️</div>
+                        <div>Cài Đặt</div>
+                    </button>
+                    <button class="menu-action-btn" onclick="showAlert('📊 Thống kê đang mở...')">
+                        <div class="menu-action-icon">📊</div>
+                        <div>Thống Kê</div>
+                    </button>
+                    <button class="menu-action-btn" onclick="showAlert('💾 Đã lưu trò chơi!')">
+                        <div class="menu-action-icon">💾</div>
+                        <div>Lưu Game</div>
+                    </button>
+                </div>
+                <!-- Game title -->
+                <div class="game-title-logo">ECO VILLAGE</div>
+                <div class="game-version">v1.0.0 - Demo</div>
+            </div>
+        </div>
+
+    </div><!-- end .game-world -->
+
+    <script src="demo.js"></script>
+</body>
+</html>
