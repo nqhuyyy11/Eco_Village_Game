@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33b247df677e4134dab24e4c094cb87c, type: 3}
+  m_Name: CuBa_BranchB
+  m_EditorClassIdentifier: Assembly-CSharp::EcoVillage.Dialogue.DialogueData
+  dialogueID: CuBa_BranchB
+  lines:
+  - speakerName: "Ng\u01B0\u1EDDi Ch\u01A1i"
+    speakerPortrait: {fileID: 0}
+    dialogueText: "Ch\xE1u nh\u1EDB Green Valley m\xE0 c\u1EE5 \u01A1i... sao l\u1EA1i
+      ra n\xF4ng n\u1ED7i n\xE0y?"
+    isPlayerChoice: 0
+    triggerEventName: 
+  - speakerName: "C\u1EE5 B\xE1"
+    speakerPortrait: {fileID: 0}
+    dialogueText: "\xD4i ch\xE1u \u01A1i... Chuy\u1EC7n d\xE0i l\u1EAFm. Kh\xE1ch
+      du l\u1ECBch b\u1ECF \u0111i, ng\u01B0\u1EDDi d\xE2n b\u1ECF \u0111i theo,
+      kh\xF4ng c\xF2n ai ng\xF3 ng\xE0ng. R\xE1c nhi\u1EC1u, c\u1EA7u h\u1ECFng,
+      gi\u1EBFng c\u1EA1n... C\u1EE5 gi\xE0 r\u1ED3i, m\u1ED9t m\xECnh kh\xF4ng l\xE0m
+      g\xEC \u0111\u01B0\u1EE3c."
+    isPlayerChoice: 0
+    triggerEventName: 
+  branchDialogues: []
+  nextDialogue: {fileID: 11400000, guid: 9fca62aef468b6042bfdda57cbb482a6, type: 2}
+  questToTrigger: {fileID: 0}

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33b247df677e4134dab24e4c094cb87c, type: 3}
+  m_Name: CuBa_Repeat
+  m_EditorClassIdentifier: Assembly-CSharp::EcoVillage.Dialogue.DialogueData
+  dialogueID: CuBa_Repeat
+  lines:
+  - speakerName: "C\u1EE5 B\xE1"
+    speakerPortrait: {fileID: 0}
+    dialogueText: "\u0110\u1EEBng v\u1ED9i, ch\xE1u \u01A1i. L\xE0ng n\xE0y h\u1ECFng
+      nhi\u1EC1u n\u0103m, kh\xF4ng th\u1EC3 s\u1EEDa trong m\u1ED9t ng\xE0y. Nh\u01B0ng
+      m\u1ED7i ng\xE0y l\xE0m m\u1ED9t ch\xFAt, \u0111\u1EA5t s\u1EBD nh\u1EDB \u01A1n
+      m\xECnh."
+    isPlayerChoice: 0
+    triggerEventName: 
+  branchDialogues: []
+  nextDialogue: {fileID: 0}
+  questToTrigger: {fileID: 0}

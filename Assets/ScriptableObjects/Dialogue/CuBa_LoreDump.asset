@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33b247df677e4134dab24e4c094cb87c, type: 3}
+  m_Name: CuBa_LoreDump
+  m_EditorClassIdentifier: Assembly-CSharp::EcoVillage.Dialogue.DialogueData
+  dialogueID: CuBa_LoreDump
+  lines:
+  - speakerName: "C\u1EE5 B\xE1"
+    speakerPortrait: {fileID: 0}
+    dialogueText: "Th\xF4i, chuy\u1EC7n c\u0169 \u0111\u1EC3 c\u0169. Ch\xE1u v\u1EC1
+      l\xE0 c\u1EE5 m\u1EEBng l\u1EAFm r\u1ED3i. C\u1EE5 c\xF3 \u0111i\u1EC1u n\xE0y
+      mu\u1ED1n n\xF3i v\u1EDBi ch\xE1u..."
+    isPlayerChoice: 0
+    triggerEventName: 
+  - speakerName: "C\u1EE5 B\xE1"
+    speakerPortrait: {fileID: 0}
+    dialogueText: "Ng\u1ED3i xu\u1ED1ng \u0111\xE2y, c\u1EE5 k\u1EC3 ch\xE1u nghe
+      chuy\u1EC7n c\u1EE7a Green Valley n\xE0y."
+    isPlayerChoice: 0
+    triggerEventName: 
+  - speakerName: "C\u1EE5 B\xE1"
+    speakerPortrait: {fileID: 0}
+    dialogueText: "Ng\xE0y x\u01B0a, Green Valley n\xE0y \u0111\u1EB9p l\u1EAFm ch\xE1u
+      \u01A1i. Kh\xE1ch t\u1EEB kh\u1EAFp n\u01A1i \u0111\u1ED5 v\u1EC1. Ng\u01B0\u1EDDi
+      ta b\u1EA3o \u0111\xE2y l\xE0 'Vi\xEAn ng\u1ECDc xanh c\u1EE7a n\xFAi r\u1EEBng'."
+    isPlayerChoice: 0
+    triggerEventName: 
+  - speakerName: "C\u1EE5 B\xE1"
+    speakerPortrait: {fileID: 0}
+    dialogueText: "N\u01B0\u1EDBc gi\u1EBFng c\u1ED5 \u0111\u1EA7u l\xE0ng trong
+      nh\u01B0 pha l\xEA, u\u1ED1ng v\xE0o m\xE1t t\u1EADn tim. C\xE2y c\u1EA7u g\u1ED7
+      b\u1EAFc qua su\u1ED1i \u2013 do t\u1ED5 ti\xEAn ta t\u1EF1 tay d\u1EF1ng l\xEAn
+      t\u1EEB tr\u0103m n\u0103m tr\u01B0\u1EDBc."
+    isPlayerChoice: 0
+    triggerEventName: 
+  - speakerName: "C\u1EE5 B\xE1"
+    speakerPortrait: {fileID: 0}
+    dialogueText: "R\u1ED3i ng\u01B0\u1EDDi ta b\u1EAFt \u0111\u1EA7u b\u1ECF b\xEA.
+      Kh\xF4ng ai quy ho\u1EA1ch, kh\xF4ng ai ch\u0103m lo. R\xE1c th\u1EA3i t\u1EEB
+      kh\xE1ch v\xE3ng lai ch\u1EA5t \u0111\u1ED1ng. C\u1EA7u h\u1ECFng kh\xF4ng
+      ai s\u1EEDa. Gi\u1EBFng c\u1ED5 b\u1ECB b\xF9n l\u1EA5p d\u1EA7n..."
+    isPlayerChoice: 0
+    triggerEventName: 
+  - speakerName: "C\u1EE5 B\xE1"
+    speakerPortrait: {fileID: 0}
+    dialogueText: "Ng\u01B0\u1EDDi tr\u1EBB trong l\xE0ng th\u1EA5y kh\xF4ng l\xE0m
+      \u0103n g\xEC \u0111\u01B0\u1EE3c, k\xE9o nhau l\xEAn th\xE0nh ph\u1ED1 h\u1EBFt.
+      Gi\u1EDD c\u1EE5 nh\xECn quanh, ch\u1EC9 c\xF2n m\u1EA5y ng\u01B0\u1EDDi gi\xE0
+      nh\u01B0 c\u1EE5 th\xF4i."
+    isPlayerChoice: 0
+    triggerEventName: 
+  - speakerName: "C\u1EE5 B\xE1"
+    speakerPortrait: {fileID: 0}
+    dialogueText: "Nh\u01B0ng h\xF4m nay... ch\xE1u v\u1EC1. V\xE0 c\u1EE5 tin \u2013
+      Green Valley ch\u01B0a ch\u1EBFt. N\xF3 ch\u1EC9 \u0111ang ng\u1EE7 th\xF4i."
+    isPlayerChoice: 0
+    triggerEventName: 
+  - speakerName: "C\u1EE5 B\xE1"
+    speakerPortrait: {fileID: 0}
+    dialogueText: "C\u1EE5 mu\u1ED1n trao cho ch\xE1u quy\u1EC1n qu\u1EA3n l\xFD
+      khu \u0111\u1EA5t hoang n\xE0y. \u0110\xE2y l\xE0 \u0111\u1EA5t c\u1EE7a d\xF2ng
+      h\u1ECD ta, c\u1EE7a Green Valley. Ch\xE1u c\xF3 d\xE1m nh\u1EADn kh\xF4ng?"
+    isPlayerChoice: 0
+    triggerEventName: 
+  - speakerName: 
+    speakerPortrait: {fileID: 0}
+    dialogueText: 
+    isPlayerChoice: 1
+    triggerEventName: 
+  branchDialogues:
+  - {fileID: 11400000, guid: 27dadacd959a40f41b87112e995f0b8c, type: 2}
+  - {fileID: 11400000, guid: 25fb11975a16a7b43b470bfbba600772, type: 2}
+  nextDialogue: {fileID: 0}
+  questToTrigger: {fileID: 0}
