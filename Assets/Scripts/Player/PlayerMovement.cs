@@ -19,6 +19,7 @@ public class PlayerMovement : MonoBehaviour
         // Thiết lập cơ bản cho Rigidbody2D ở chế độ Top-Down
         rb.gravityScale = 0f;
         rb.constraints = RigidbodyConstraints2D.FreezeRotation;
+        
     }
 
     void Update()
@@ -33,17 +34,17 @@ public class PlayerMovement : MonoBehaviour
             movement.Normalize();
         }
 
-        // Truyền tham số sang Animator để chạy Animation
-        animator.SetFloat("Horizontal", movement.x);
-        animator.SetFloat("Vertical", movement.y);
-        animator.SetFloat("Speed", movement.sqrMagnitude);
-
-        // Lưu lại hướng nhìn cuối cùng để dùng cho Animation đứng im (Idle)
-        if (movement.x != 0 || movement.y != 0)
+        // --- ĐOẠN MỚI: Lật cả nhân vật (Thân + Tóc) khi quay trái/phải ---
+        if (movement.x != 0)
         {
-            animator.SetFloat("LastHorizontal", movement.x);
-            animator.SetFloat("LastVertical", movement.y);
+            Vector3 scale = transform.localScale;
+            // Giữ nguyên độ to nhỏ (Scale) ban đầu, chỉ lật âm/dương của trục X
+            scale.x = movement.x > 0 ? Mathf.Abs(scale.x) : -Mathf.Abs(scale.x);
+            transform.localScale = scale;
         }
+
+        // Báo cho Animator biết nhân vật đang di chuyển hay đứng im
+        animator.SetFloat("Speed", movement.sqrMagnitude);
     }
 
     void FixedUpdate()
