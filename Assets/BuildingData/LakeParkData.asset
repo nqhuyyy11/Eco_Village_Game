@@ -16,8 +16,8 @@ MonoBehaviour:
   displayName: "C\xF4ng Vi\xEAn Sinh Th\xE1i H\u1ED3"
   description: "Khu\xF4n vi\xEAn xanh ven h\u1ED3 gi\xFAp l\xE0m s\u1EA1ch n\u01B0\u1EDBc
     v\xE0 th\u01B0 gi\xE3n."
-  prefab: {fileID: 0}
-  previewSprite: {fileID: 0}
+  prefab: {fileID: 1271113671408681811, guid: 1ba0d94d1b462514586a265f91be3950, type: 3}
+  previewSprite: {fileID: -831176694922938055, guid: 5fb130ffb8c8d284dbcb2c79902cb575, type: 3}
   gridSize: {x: 4, y: 3}
   goldCost: 400
   woodCost: 15

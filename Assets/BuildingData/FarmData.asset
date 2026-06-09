@@ -15,8 +15,8 @@ MonoBehaviour:
   buildingID: farm
   displayName: "N\xF4ng Tr\u1EA1i H\u1EEFu C\u01A1"
   description: "Cung c\u1EA5p n\xF4ng s\u1EA3n s\u1EA1ch cho d\xE2n l\xE0ng."
-  prefab: {fileID: 0}
-  previewSprite: {fileID: 0}
+  prefab: {fileID: 7015402957057702523, guid: 383cfffd85d9e4740bce9d1c5b4f8428, type: 3}
+  previewSprite: {fileID: 6437738476519406127, guid: c940abca1f0451b4283301c509da48e3, type: 3}
   gridSize: {x: 2, y: 2}
   goldCost: 100
   woodCost: 10

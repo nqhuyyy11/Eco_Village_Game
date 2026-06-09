@@ -16,8 +16,8 @@ MonoBehaviour:
   displayName: "Trang Tr\u1EA1i Ch\u0103n Nu\xF4i"
   description: "Ch\u0103n nu\xF4i gia s\xFAc h\u1EEFu c\u01A1 k\u1EBFt h\u1EE3p l\xE0m
     ph\xE2n b\xF3n sinh h\u1ECDc."
-  prefab: {fileID: 0}
-  previewSprite: {fileID: 0}
+  prefab: {fileID: 3690338823726903790, guid: 043e3a097de4c754b9739d03415de20e, type: 3}
+  previewSprite: {fileID: -9032679894510146780, guid: 34b87b4eb793f2b43b1f00ce9bdcb639, type: 3}
   gridSize: {x: 3, y: 3}
   goldCost: 200
   woodCost: 20
