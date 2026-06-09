@@ -16,8 +16,8 @@ MonoBehaviour:
   displayName: "Homestay Tre N\u1EE9a"
   description: "Khu ngh\u1EC9 d\u01B0\u1EE1ng th\xE2n thi\u1EC7n v\u1EDBi thi\xEAn
     nhi\xEAn b\u1EB1ng tre g\u1ED7."
-  prefab: {fileID: 0}
-  previewSprite: {fileID: 0}
+  prefab: {fileID: 5310802978908895586, guid: 73df7a12d8d44c841aabc78587f91e5f, type: 3}
+  previewSprite: {fileID: 2281189740047281530, guid: 0468a55b7bb6d7d408367a7f97b6f8af, type: 3}
   gridSize: {x: 2, y: 2}
   goldCost: 300
   woodCost: 30

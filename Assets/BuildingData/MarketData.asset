@@ -16,8 +16,8 @@ MonoBehaviour:
   displayName: "Ch\u1EE3 N\xF4ng S\u1EA3n S\u1EA1ch"
   description: "N\u01A1i giao th\u01B0\u01A1ng v\xE0 b\xE1n c\xE1c s\u1EA3n ph\u1EA9m
     sinh th\xE1i t\u1EF1 ch\u1EBF."
-  prefab: {fileID: 0}
-  previewSprite: {fileID: 0}
+  prefab: {fileID: 5972267276471719410, guid: aad57462bad9dda48b650e095348108e, type: 3}
+  previewSprite: {fileID: 2609851761605400732, guid: 52f71b445d7679242ac022df4415abca, type: 3}
   gridSize: {x: 3, y: 2}
   goldCost: 250
   woodCost: 15
