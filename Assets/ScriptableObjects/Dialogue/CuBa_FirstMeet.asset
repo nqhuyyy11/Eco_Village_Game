@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33b247df677e4134dab24e4c094cb87c, type: 3}
+  m_Name: CuBa_FirstMeet
+  m_EditorClassIdentifier: Assembly-CSharp::EcoVillage.Dialogue.DialogueData
+  dialogueID: CuBa_FirstMeet
+  lines:
+  - speakerName: "C\u1EE5 B\xE1"
+    speakerPortrait: {fileID: 0}
+    dialogueText: "\u1EE6a... Tr\u1EDDi \u01A1i, c\xF3 ph\u1EA3i... l\xE0 ch\xE1u
+      kh\xF4ng?!"
+    isPlayerChoice: 0
+    triggerEventName: 
+  - speakerName: "C\u1EE5 B\xE1"
+    speakerPortrait: {fileID: 0}
+    dialogueText: "Ch\xE0 ch\xE0 ch\xE0! Tr\xF4ng ch\xE1u b\xE2y gi\u1EDD kh\xE1c
+      h\u1EB3n ng\xE0y b\xE9 r\u1ED3i! L\u1EDBn th\u1EADt r\u1ED3i \u0111\xF3...
+      m\xE0 tr\xF4ng v\u1EABn gi\u1ED1ng c\xE1i h\u1ED3i c\xF2n ch\u1EA1y t\u1EAFm
+      m\u01B0a tr\u01B0\u1EDBc s\xE2n \u0111\xECnh l\u1EAFm!"
+    isPlayerChoice: 0
+    triggerEventName: 
+  - speakerName: "C\u1EE5 B\xE1"
+    speakerPortrait: {fileID: 0}
+    dialogueText: "C\u1EE5 vui l\u1EAFm khi ch\xE1u v\u1EC1... nh\u01B0ng...\nC\u1EE5
+      c\u0169ng bu\u1ED3n l\u1EAFm khi ch\xE1u ph\u1EA3i th\u1EA5y c\u1EA3nh n\xE0y."
+    isPlayerChoice: 0
+    triggerEventName: 
+  - speakerName: 
+    speakerPortrait: {fileID: 0}
+    dialogueText: 
+    isPlayerChoice: 1
+    triggerEventName: 
+  branchDialogues:
+  - {fileID: 11400000, guid: 83288f4cf182abd4b84b98b5e90d01d7, type: 2}
+  - {fileID: 11400000, guid: 893ab9e884edfc54e97a918a87158c57, type: 2}
+  nextDialogue: {fileID: 0}
+  questToTrigger: {fileID: 0}

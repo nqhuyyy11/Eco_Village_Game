@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: faa01caebb7582a4cb107da93061b1cd, type: 3}
+  m_Name: Quest_CleanTrash_Ch1
+  m_EditorClassIdentifier: Assembly-CSharp::EcoVillage.Quest.QuestData
+  questID: Quest_CleanTrash_Ch1
+  questName: "L\u1ED1i V\u1EC1 Trong S\u1EA1ch"
+  questDescription: "D\u1ECDn s\u1EA1ch 5 \u0111\u1ED1ng r\xE1c xung quanh khu v\u1EF1c
+    l\u1ED1i v\xE0o l\xE0ng \u0111\u1EC3 m\u1EDF \u0111\u01B0\u1EDDng cho du kh\xE1ch."
+  chapterName: "Ch\u01B0\u01A1ng I: Ti\u1EBFng G\u1ECDi T\u1EEB Thi\xEAn Nhi\xEAn"
+  steps:
+  - stepDescription: "D\u1ECDn \u0111\u1ED1ng r\xE1c"
+    stepType: 0
+    requiredAmount: 5
+    targetID: Trash
+  reward:
+    goldAmount: 100
+    reputationAmount: 5
+    rewardDescription: "+100 V\xE0ng, +5 Danh Ti\u1EBFng"
+  onStartDialogue: {fileID: 0}
+  onCompleteDialogue: {fileID: 11400000, guid: d1e87026ee8cf9f498b788235c0353dc, type: 2}
+  nextQuest: {fileID: 0}
