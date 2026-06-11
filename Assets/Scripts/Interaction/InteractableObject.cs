@@ -36,7 +36,9 @@ namespace EcoVillage.Interaction
 
         [Header("Chi Phí Năng Lượng")]
         [Tooltip("Năng lượng tiêu hao mỗi lần tương tác. Kết nối với ProfileHUD.")]
+#pragma warning disable 0414
         [SerializeField] private float energyCost = 10f;
+#pragma warning restore 0414
 
         [Header("Sau Khi Tương Tác")]
         [Tooltip("Nếu true, object sẽ bị ẩn/xóa sau khi tương tác đủ số lần.")]
@@ -75,7 +77,7 @@ namespace EcoVillage.Interaction
                 if (Dialogue.DialogueManager.Instance != null &&
                     Dialogue.DialogueManager.Instance.IsDialogueActive()) return;
 
-                if (Keyboard.current != null && Keyboard.current.eKey.wasPressedThisFrame)
+                if (Keyboard.current != null && (Keyboard.current.eKey.wasPressedThisFrame || Keyboard.current.spaceKey.wasPressedThisFrame))
                 {
                     Interact();
                 }

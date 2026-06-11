@@ -43,4 +43,4 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 83288f4cf182abd4b84b98b5e90d01d7, type: 2}
   - {fileID: 11400000, guid: 893ab9e884edfc54e97a918a87158c57, type: 2}
   nextDialogue: {fileID: 0}
-  questToTrigger: {fileID: 0}
+  questToTrigger: {fileID: 11400000, guid: 0f7cdb68b5f4ccd45ab7104351d3350d, type: 2}

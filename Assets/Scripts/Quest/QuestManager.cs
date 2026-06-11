@@ -54,6 +54,7 @@ namespace EcoVillage.Quest
                 return;
             }
             Instance = this;
+            transform.SetParent(null); // Đảm bảo object là Root GameObject trước khi DontDestroyOnLoad
             DontDestroyOnLoad(gameObject);
 
             InitializeQuestStatuses();

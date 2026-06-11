@@ -49,6 +49,10 @@ namespace EcoVillage.Dialogue
         [Tooltip("Sprite mặc định khi không có ảnh chân dung.")]
         [SerializeField] private Sprite defaultPortrait;
 
+        [Header("Auto Start (Tự động chạy)")]
+        [Tooltip("Kịch bản hội thoại sẽ tự động chạy ngay khi vừa mở Game (để trống nếu không dùng)")]
+        [SerializeField] private DialogueData autoStartDialogue;
+
         // ─── Events ───────────────────────────────────────────────────────────────
         [Header("Sự Kiện")]
         public UnityEvent onDialogueStart;
@@ -81,6 +85,19 @@ namespace EcoVillage.Dialogue
         {
             // Đảm bảo panel tắt khi bắt đầu game
             HideDialoguePanel();
+
+            // Nếu có gắn kịch bản tự động chạy thì cho nó chạy
+            if (autoStartDialogue != null)
+            {
+                StartCoroutine(RunAutoStartDialogue());
+            }
+        }
+
+        private IEnumerator RunAutoStartDialogue()
+        {
+            // Đợi một chút xíu (0.1 giây) để tất cả hệ thống Game load xong thì mới bật hội thoại
+            yield return new WaitForSeconds(0.1f);
+            StartDialogue(autoStartDialogue);
         }
 
         // ─────────────────────────────────────────────────────────────────────────
