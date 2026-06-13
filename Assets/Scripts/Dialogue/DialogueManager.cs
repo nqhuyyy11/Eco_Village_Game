@@ -3,6 +3,7 @@ using UnityEngine;
 using UnityEngine.Events;
 using TMPro;
 using UnityEngine.UI;
+using UnityEngine.InputSystem;
 
 namespace EcoVillage.Dialogue
 {
@@ -64,6 +65,7 @@ namespace EcoVillage.Dialogue
         private bool _isTyping;
         private bool _isActive;
         private Coroutine _typingCoroutine;
+        private float _lastDialogueEndTime;
 
         // ─────────────────────────────────────────────────────────────────────────
         // UNITY LIFECYCLE
@@ -90,6 +92,15 @@ namespace EcoVillage.Dialogue
             if (autoStartDialogue != null)
             {
                 StartCoroutine(RunAutoStartDialogue());
+            }
+        }
+
+        private void Update()
+        {
+            // Cho phép người chơi bấm [E] để chuyển câu / skip typing / đóng hội thoại
+            if (_isActive && Keyboard.current != null && Keyboard.current.eKey.wasPressedThisFrame)
+            {
+                OnNextButtonClicked();
             }
         }
 
@@ -175,7 +186,7 @@ namespace EcoVillage.Dialogue
         /// Trả về true nếu hộp thoại đang mở.
         /// Dùng để chặn các input khác khi đang hội thoại.
         /// </summary>
-        public bool IsDialogueActive() => _isActive;
+        public bool IsDialogueActive() => _isActive || (Time.time - _lastDialogueEndTime < 0.1f);
 
         // ─────────────────────────────────────────────────────────────────────────
         // PRIVATE METHODS
@@ -245,6 +256,7 @@ namespace EcoVillage.Dialogue
         private void EndDialogue()
         {
             _isActive = false;
+            _lastDialogueEndTime = Time.time;
             HideDialoguePanel();
             onDialogueEnd?.Invoke();
 

@@ -476,6 +476,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
   moveSpeed: 10
+  sprintSpeed: 8
+  speedSmoothTime: 0.1
 --- !u!50 &413186226
 Rigidbody2D:
   serializedVersion: 5
@@ -2762,6 +2764,10 @@ PrefabInstance:
       propertyPath: m_ActiveFontFeatures.Array.size
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4699375315341503527, guid: 19090d285b081fa4f84935901c05a981, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5039798095656895829, guid: 19090d285b081fa4f84935901c05a981, type: 3}
       propertyPath: m_fontAsset
       value: 
@@ -2879,7 +2885,8 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 7171086875026861841, guid: 19090d285b081fa4f84935901c05a981, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19090d285b081fa4f84935901c05a981, type: 3}
