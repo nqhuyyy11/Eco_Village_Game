@@ -86,6 +86,18 @@ namespace EcoVillage.Quest
             _questStatuses[questData.questID] = QuestStatus.Active;
 
             Debug.Log($"[QuestManager] ✅ Quest bắt đầu: '{questData.questName}'");
+            
+            var notifier = UI.NotificationManager.Instance;
+            if (notifier == null) notifier = Object.FindFirstObjectByType<UI.NotificationManager>();
+
+            if (notifier != null)
+            {
+                notifier.ShowNotification($"<color=yellow>Nhiệm vụ mới:</color>\n{questData.questName}");
+            }
+            else
+            {
+                Debug.LogError("[QuestManager] LỖI: Không tìm thấy NotificationManager trong Scene!");
+            }
             onQuestStarted?.Invoke(questData.questName);
 
             // Phát hội thoại bắt đầu quest nếu có
@@ -124,6 +136,15 @@ namespace EcoVillage.Quest
                     anyUpdated = true;
 
                     Debug.Log($"[QuestManager] 📋 '{quest.questName}' → {step.GetFullDescription()}");
+                    
+                    // Hiện thông báo (Ví dụ: "Dọn đống rác: 1/5")
+                    var notifier = UI.NotificationManager.Instance;
+                    if (notifier == null) notifier = Object.FindFirstObjectByType<UI.NotificationManager>();
+
+                    if (notifier != null)
+                    {
+                        notifier.ShowNotification(step.GetFullDescription());
+                    }
 
                     // Kiểm tra toàn bộ quest hoàn thành không
                     if (quest.IsAllStepsCompleted())
@@ -192,6 +213,14 @@ namespace EcoVillage.Quest
             _questStatuses[questData.questID] = QuestStatus.Completed;
 
             Debug.Log($"[QuestManager] 🏆 Quest hoàn thành: '{questData.questName}'!");
+            
+            var notifier = UI.NotificationManager.Instance;
+            if (notifier == null) notifier = Object.FindFirstObjectByType<UI.NotificationManager>();
+
+            if (notifier != null)
+            {
+                notifier.ShowNotification($"<color=#00FF00>Hoàn thành:</color>\n{questData.questName}");
+            }
 
             // Trao phần thưởng
             GiveReward(questData.reward);
