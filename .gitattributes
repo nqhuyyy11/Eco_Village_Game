@@ -1,0 +1,49 @@
+# ============================================================
+#  Cấu hình Git cho dự án Unity (Eco_Village_Game)
+#  Mục tiêu: giảm xung đột (conflict) khi nhiều người cùng sửa
+#  Scene / Prefab, và ép các file Unity ở dạng text để merge được.
+# ============================================================
+
+# Mặc định: tự nhận diện text, chuẩn hoá xuống dòng
+* text=auto
+
+# ----- Các file YAML của Unity: ép text + dùng Unity Smart Merge -----
+*.unity      merge=unityyamlmerge eol=lf text
+*.prefab     merge=unityyamlmerge eol=lf text
+*.asset      merge=unityyamlmerge eol=lf text
+*.meta       merge=unityyamlmerge eol=lf text
+*.controller merge=unityyamlmerge eol=lf text
+*.anim       merge=unityyamlmerge eol=lf text
+*.mat        merge=unityyamlmerge eol=lf text
+*.physicsMaterial2D merge=unityyamlmerge eol=lf text
+*.physicMaterial    merge=unityyamlmerge eol=lf text
+*.overrideController merge=unityyamlmerge eol=lf text
+*.mask       merge=unityyamlmerge eol=lf text
+*.lighting   merge=unityyamlmerge eol=lf text
+
+# ----- Mã nguồn -----
+*.cs         text diff=csharp eol=lf
+*.shader     text eol=lf
+*.json       text eol=lf
+*.md         text eol=lf
+
+# ----- File nhị phân (KHÔNG cố merge, KHÔNG đổi byte) -----
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.psd  binary
+*.tga  binary
+*.tif  binary
+*.bmp  binary
+*.ico  binary
+*.mp3  binary
+*.wav  binary
+*.ogg  binary
+*.mp4  binary
+*.fbx  binary
+*.ttf  binary
+*.otf  binary
+*.dll  binary
+*.docx binary
+*.pdf  binary

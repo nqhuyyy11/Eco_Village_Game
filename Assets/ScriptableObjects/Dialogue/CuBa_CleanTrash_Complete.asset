@@ -36,5 +36,5 @@ MonoBehaviour:
     isPlayerChoice: 0
     triggerEventName: 
   branchDialogues: []
-  nextDialogue: {fileID: 0}
+  nextDialogue: {fileID: 11400000, guid: 107543b52ae54c289f72e49766b3d69e, type: 2}
   questToTrigger: {fileID: 0}

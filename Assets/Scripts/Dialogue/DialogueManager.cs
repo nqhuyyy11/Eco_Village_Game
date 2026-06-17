@@ -67,6 +67,10 @@ namespace EcoVillage.Dialogue
         private Coroutine _typingCoroutine;
         private float _lastDialogueEndTime;
 
+        // Lưu lại hội thoại GỐC khi người chơi rẽ nhánh, để khi nhánh kết thúc vẫn
+        // chạy được questToTrigger / nextDialogue của hội thoại gốc (tránh mất quest).
+        private DialogueData _pendingRootDialogue;
+
         // ─────────────────────────────────────────────────────────────────────────
         // UNITY LIFECYCLE
         // ─────────────────────────────────────────────────────────────────────────
@@ -179,6 +183,15 @@ namespace EcoVillage.Dialogue
             }
 
             HideChoicePanel();
+
+            // Giữ lại end-actions (quest/nextDialogue) của hội thoại GỐC trước khi rẽ nhánh.
+            // Nếu không, _currentDialogue bị ghi đè sang nhánh con và quest của hội thoại gốc
+            // sẽ không bao giờ được kích hoạt.
+            if (_currentDialogue.questToTrigger != null || _currentDialogue.nextDialogue != null)
+            {
+                _pendingRootDialogue = _currentDialogue;
+            }
+
             StartDialogue(_currentDialogue.branchDialogues[choiceIndex]);
         }
 
@@ -260,16 +273,37 @@ namespace EcoVillage.Dialogue
             HideDialoguePanel();
             onDialogueEnd?.Invoke();
 
-            // Kích hoạt nhiệm vụ nếu DialogueData có gắn QuestData
-            if (_currentDialogue.questToTrigger != null)
+            DialogueData justFinished = _currentDialogue;
+
+            // Kích hoạt nhiệm vụ nếu hội thoại vừa kết thúc có gắn QuestData
+            if (justFinished.questToTrigger != null)
             {
-                Quest.QuestManager.Instance?.StartQuest(_currentDialogue.questToTrigger);
+                Quest.QuestManager.Instance?.StartQuest(justFinished.questToTrigger);
             }
 
-            // Chuyển sang hội thoại tiếp theo nếu có
-            if (_currentDialogue.nextDialogue != null)
+            // Còn hội thoại nối tiếp -> chạy tiếp. End-actions của hội thoại gốc vẫn
+            // được giữ trong _pendingRootDialogue cho tới khi cả chuỗi kết thúc.
+            if (justFinished.nextDialogue != null)
             {
-                StartDialogue(_currentDialogue.nextDialogue);
+                StartDialogue(justFinished.nextDialogue);
+                return;
+            }
+
+            // Đã hết cả chuỗi -> chạy end-actions của hội thoại GỐC (nếu trước đó có rẽ nhánh).
+            if (_pendingRootDialogue != null)
+            {
+                DialogueData root = _pendingRootDialogue;
+                _pendingRootDialogue = null;
+
+                // StartQuest đã tự chặn việc bắt đầu trùng nên gọi an toàn dù quest đã chạy.
+                if (root.questToTrigger != null)
+                {
+                    Quest.QuestManager.Instance?.StartQuest(root.questToTrigger);
+                }
+                if (root.nextDialogue != null)
+                {
+                    StartDialogue(root.nextDialogue);
+                }
             }
         }
 

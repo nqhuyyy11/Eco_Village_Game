@@ -11,7 +11,7 @@ Tuy nhiên, sau nhiều năm bị lãng quên và thiếu định hướng phát
 2.  **Khách du lịch giảm mạnh:** Cảnh quan bị hủy hoại khiến khách rời đi, thung lũng trở nên hoang vu, u ám.
 3.  **Kinh tế địa phương suy thoái:** Người dân mất sinh kế du lịch, bỏ quê hương lên thành phố kiếm sống, chỉ còn lại một số ít người già bám trụ trong bất lực.
 
----
+--- 
 
 ## II. TUYẾN NHÂN VẬT CHÍNH (CHARACTERS)
 
@@ -41,6 +41,30 @@ Tuy nhiên, sau nhiều năm bị lãng quên và thiếu định hướng phát
     *   *Nhiệm vụ 2:* Thu thập 20 Gỗ (chặt cây khô) để sửa lại cây cầu gỗ cũ bắc qua suối.
     *   *Nhiệm vụ 3:* Khôi phục lại **Giếng Nước Cổ** đầu làng để cung cấp nước sạch sinh hoạt.
 *   **Kết quả chương:** Nguồn nước sạch được khôi phục, Cụ Bá giới thiệu Lâm và Mai Vy đến hỗ trợ bạn.
+
+📌 Mạch kết nối Chương I -> Chương II
+1. Nhiệm vụ cuối Chương I: Khôi phục Giếng Cổ
+
+Hành động: Người chơi tìm vật liệu và tương tác để sửa lại cái giếng cạn.
+Kết quả: Dòng nước trong vắt trào lên. Cụ Bá đi tới, mỉm cười gật gù: "Giỏi lắm! Có nước sạch rồi, mảnh đất này đã sẵn sàng để vươn mình thêm lần nữa. Nhận lấy cái này đi, đây là thứ mà Trưởng làng đời trước đã để lại..."
+2. Cutscene Chuyển Chương:
+
+Cụ Bá trao cho người chơi một cuộn giấy da cũ kỹ.
+Màn hình lóe sáng kèm âm thanh chiến thắng (Victory sound).
+Chữ lớn hiện lên giữa màn hình: "HOÀN THÀNH CHƯƠNG I" -> "MỞ KHÓA TÍNH NĂNG: BẢN ĐỒ QUY HOẠCH".
+Ngay lúc này, cái nút MAP ở dưới góc phải màn hình của bạn (cái nút có hình cuộn giấy) sẽ nhấp nháy sáng lên để gây chú ý cho người chơi bấm vào.
+📌 Khi người chơi bấm vào nút MAP (Mở đầu Chương II)
+1. Giao diện Bản Đồ Quy Hoạch (Zoning Map):
+
+Khi bấm nút MAP, camera game mờ đi, một giao diện Bản đồ vẽ tay (hoặc bản đồ thu nhỏ 2D) của toàn bộ thung lũng sẽ hiện ra giữa màn hình.
+Trên bản đồ này, không phải chỗ nào cũng xây được. Sẽ có những Ô Đất Sáng Màu (Highlight) nhấp nháy.
+Khu ven suối: Hiện biểu tượng "Năng lượng" (Gợi ý xây Trạm Thủy Điện / Quạt gió).
+Khu bãi cỏ bằng phẳng gần làng: Hiện biểu tượng "Cái giường" (Gợi ý xây Homestay).
+Khu đất mùn: Hiện biểu tượng "Mầm cây" (Gợi ý làm Vườn Sinh Thái).
+2. Nhiệm vụ mở đầu Chương II:
+
+Khi người chơi trỏ chuột vào một khu đất sáng màu dành cho Homestay, hệ thống sẽ hiện yêu cầu: "Cần dọn dẹp sạch cỏ dại ở khu vực này để bắt đầu khởi công Homestay Cấp 1".
+Mục tiêu mới xuất hiện trong Bảng Nhiệm Vụ: Mở Bản đồ, tìm đến Khu Vực Quy Hoạch Homestay #1, dọn sạch rác ở đó và dùng Gỗ để xây dựng căn Homestay đầu tiên.
 
 ### 📌 Chương II: Kiến Tạo Tương Lai (Phát Triển Hạ Tầng Xanh)
 *   **Cốt truyện:** Có nước sạch, nhưng thung lũng vẫn thiếu điện và nơi nghỉ ngơi cho khách. Người chơi bắt tay với Mai Vy và Lâm để nâng cấp cơ sở vật chất.

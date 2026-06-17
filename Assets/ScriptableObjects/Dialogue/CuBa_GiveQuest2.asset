@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33b247df677e4134dab24e4c094cb87c, type: 3}
+  m_Name: CuBa_GiveQuest2
+  m_EditorClassIdentifier: Assembly-CSharp::EcoVillage.Dialogue.DialogueData
+  dialogueID: CuBa_GiveQuest2
+  lines:
+  - speakerName: "Cụ Bá"
+    speakerPortrait: {fileID: 0}
+    dialogueText: "À, mà cháu có để ý cây cầu gỗ bắc qua con suối đầu làng không? Nó mục gãy hết rồi, chẳng ai qua lại được nữa."
+    isPlayerChoice: 0
+    triggerEventName:
+  - speakerName: "Cụ Bá"
+    speakerPortrait: {fileID: 0}
+    dialogueText: "Muốn nối lại đường cho bà con và du khách thì phải dựng lại cây cầu ấy. Cháu chặt giúp cụ mấy cây khô lấy gỗ nhé, chừng 20 khúc là đủ."
+    isPlayerChoice: 0
+    triggerEventName:
+  - speakerName: "Cụ Bá"
+    speakerPortrait: {fileID: 0}
+    dialogueText: "Có gỗ rồi thì ra chỗ cây cầu cũ mà sửa lại. Cụ tin ở cháu."
+    isPlayerChoice: 0
+    triggerEventName: QuestStarted
+  branchDialogues: []
+  nextDialogue: {fileID: 0}
+  questToTrigger: {fileID: 11400000, guid: 7c4863d86eda495eb37a2a99feb7ede5, type: 2}
