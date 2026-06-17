@@ -11,7 +11,7 @@ namespace EcoVillageGame.UI
 
         [Header("Scene Settings")]
         [Tooltip("Tên Scene của Game chính để chuyển sang khi bấm Play")]
-        public string gameSceneName = "SampleScene";
+        public string gameSceneName = "MainScene";
 
         private void Start()
         {
