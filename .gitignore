@@ -15,9 +15,10 @@
 # Scrap/Temporary files
 /[Aa]ssets/AssetStoreTools*
 
-# Visual Studio / Rider generated files
+# Visual Studio / Rider / VS Code generated files
 .vs/
 .idea/
+.vscode/
 *.csproj
 *.unityproj
 *.sln
