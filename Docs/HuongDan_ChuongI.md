@@ -79,9 +79,13 @@ Mở scene `Assets/Scenes/MainScene.unity`.
 |---|---|---|---|---|
 | Đống rác | `Sprites/Generated/trash_pile.png` | `Trash` | CollectResource | đặt **5** đống |
 | Cây khô | `Sprites/Sunnyside.../Elements/Plants/spr_deco_tree_01_strip4` | `Wood` | CollectResource | **4** cây × 5 gỗ = 20 |
-| Cầu gỗ | `Sprites/Chapter1/wooden_bridge.png` | `WoodenBridge` | InteractWithObject | **1** cây cầu |
+| Cầu gỗ | đặt `Sprites/Chapter1/wooden_bridge_broken.png` (gãy) | `WoodenBridge` | InteractWithObject | **1** cây cầu |
 | Đá/Sỏi | `Sprites/Sunnyside.../Elements/Crops/rock.png` | `Stone` | CollectResource | **5** viên × 2 đá = 10 |
-| Giếng cổ | `Sprites/Chapter1/old_well.png` | `OldWell` | InteractWithObject | **1** giếng |
+| Giếng cổ | đặt `Sprites/Chapter1/old_well_broken.png` (nát) | `OldWell` | InteractWithObject | **1** giếng |
+
+> 🔁 **Cầu & Giếng có 2 trạng thái** (nát/gãy → lành): đặt bản **nát/gãy** làm vật thể chính, bản **lành** hiện ra sau khi sửa. Xem mục 3.5.
+> - Giếng: `old_well_broken.png` (nát) ↔ `old_well.png` (lành)
+> - Cầu: `wooden_bridge_broken.png` (gãy) ↔ `wooden_bridge.png` (lành)
 
 ### 3.2. Cấu hình import cho ảnh mới (chỉ làm 1 lần)
 
@@ -125,16 +129,31 @@ Với `old_well.png` và `wooden_bridge.png` (và bất kỳ ảnh nào trong Su
 - **Cầu gỗ** (×1): Target ID = `WoodenBridge`, **InteractWithObject**, Interactions Required = 1. (xem mục 3.5 để cầu "sửa xong" đẹp hơn)
 - **Giếng cổ** (×1): Target ID = `OldWell`, **InteractWithObject**, Interactions Required = 1.
 
-### 3.5. (Tuỳ chọn — đẹp hơn) Hiệu ứng "hỏng → sửa xong" cho Cầu & Giếng
+### 3.5. Hiệu ứng "hỏng → sửa xong" cho Cầu & Giếng (đã có sẵn art cặp nát/lành)
 
-Mặc định khi `Destroy On Complete = false`, vật thể sẽ **bị ẩn** sau khi tương tác — không hợp cho cầu/giếng (ta muốn nó hiện ra phiên bản đã sửa). Cách làm mượt:
+Cầu/Giếng cần hiện ra **phiên bản đã sửa** sau khi tương tác. Dùng cơ chế **Interact Effect** của `InteractableObject`: khi tương tác, nó bật một object khác lên và tự huỷ chính nó.
 
-1. Tạo 2 object: `Bridge_Broken` (gắn InteractableObject, **Destroy On Complete = ✅**) và `Bridge_Fixed` (chỉ là Sprite, **để TẮT sẵn** — bỏ tick ô active ở góc trên Inspector).
-2. Đặt `Bridge_Fixed` **KHÔNG phải con** của `Bridge_Broken` (để khỏi bị xoá theo).
-3. Ở `Bridge_Broken` → InteractableObject → ô **Interact Effect**: kéo `Bridge_Fixed` vào.
-   → Khi sửa: `Bridge_Fixed` bật lên, `Bridge_Broken` biến mất. Làm y hệt cho Giếng.
+**Ví dụ với GIẾNG (cầu làm y hệt):**
 
-*(Nếu muốn nhanh, bỏ qua mục này, để Destroy On Complete = ✅ cho cầu/giếng — vật thể sẽ biến mất khi hoàn thành; chấp nhận được cho bản demo.)*
+**B1 — Đặt giếng NÁT (vật thể chính):**
+1. Project gõ `old_well_broken` → kéo vào Scene → đổi tên `GiengCo_Nat`.
+2. Sprite Renderer → **Order in Layer = 3**; Transform → **Scale ~40**.
+3. Add **Box Collider 2D** → **Is Trigger ✅**.
+4. Add **Interactable Object**: Target ID = `OldWell`, Interaction Type = **Interact With Object**, Interactions Required = `1`, **Destroy On Complete = ✅**.
+
+**B2 — Đặt giếng LÀNH (bản hiện sau):**
+1. Project gõ `old_well` → kéo vào Scene → đổi tên `GiengCo_Lanh`.
+2. Đặt **trùng vị trí & cùng Scale** với `GiengCo_Nat` (gõ tay cùng Position X/Y + Scale). Order in Layer = 3.
+3. **TẮT object** (bỏ tick ô checkbox cạnh tên ở đầu Inspector) → nó ẩn lúc đầu.
+4. ⚠️ Để `GiengCo_Lanh` **độc lập, KHÔNG làm con** của `GiengCo_Nat` (kẻo bị xoá theo).
+
+**B3 — Nối:**
+1. Chọn `GiengCo_Nat` → Interactable Object → ô **Interact Effect** → kéo `GiengCo_Lanh` vào.
+
+→ Khi sửa xong: `GiengCo_Lanh` bật lên, `GiengCo_Nat` biến mất. ✨
+→ **Cầu:** lặp lại với `wooden_bridge_broken` (chính, Target ID `WoodenBridge`) + `wooden_bridge` (lành).
+
+> Bảng cặp art: `old_well_broken ↔ old_well`, `wooden_bridge_broken ↔ wooden_bridge` (đều trong `Assets/Sprites/Chapter1/`).
 
 ---
 

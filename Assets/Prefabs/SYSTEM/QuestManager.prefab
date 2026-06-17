@@ -46,6 +46,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EcoVillage.Quest.QuestManager
   allQuests:
   - {fileID: 11400000, guid: 0f7cdb68b5f4ccd45ab7104351d3350d, type: 2}
+  - {fileID: 11400000, guid: 7c4863d86eda495eb37a2a99feb7ede5, type: 2}
+  - {fileID: 11400000, guid: 225283d54dd749bb837efb90bbd5d2ae, type: 2}
   onQuestStarted:
     m_PersistentCalls:
       m_Calls: []
