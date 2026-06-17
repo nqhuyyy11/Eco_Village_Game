@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33b247df677e4134dab24e4c094cb87c, type: 3}
+  m_Name: CuBa_Quest3_Complete
+  m_EditorClassIdentifier: Assembly-CSharp::EcoVillage.Dialogue.DialogueData
+  dialogueID: CuBa_Quest3_Complete
+  lines:
+  - speakerName: "Cụ Bá"
+    speakerPortrait: {fileID: 0}
+    dialogueText: "Nước... nước trong vắt đã trào lên rồi! Cụ cứ tưởng đời mình chẳng còn được thấy lại ngày này nữa."
+    isPlayerChoice: 0
+    triggerEventName:
+  - speakerName: "Cụ Bá"
+    speakerPortrait: {fileID: 0}
+    dialogueText: "Giỏi lắm, cháu của cụ! Có nước sạch rồi, mảnh đất này đã sẵn sàng để vươn mình thêm một lần nữa."
+    isPlayerChoice: 0
+    triggerEventName:
+  - speakerName: "Cụ Bá"
+    speakerPortrait: {fileID: 0}
+    dialogueText: "Nhận lấy cái này đi, cuộn giấy mà Trưởng làng đời trước đã để lại. Đã đến lúc cháu cần đến nó."
+    isPlayerChoice: 0
+    triggerEventName:
+  - speakerName: "Cụ Bá"
+    speakerPortrait: {fileID: 0}
+    dialogueText: "À, cụ cũng đã nhắn hai đứa Lâm và Mai Vy sang giúp cháu. Lâm rành nông lâm, còn Mai Vy giỏi máy móc năng lượng. Có tụi nó, chặng đường sắp tới sẽ đỡ vất vả hơn nhiều."
+    isPlayerChoice: 0
+    triggerEventName:
+  - speakerName: "Narrator"
+    speakerPortrait: {fileID: 0}
+    dialogueText: "Chương I hoàn thành. Tính năng Bản Đồ Quy Hoạch đã được mở khóa."
+    isPlayerChoice: 0
+    triggerEventName: ChapterOneComplete
+  branchDialogues: []
+  nextDialogue: {fileID: 0}
+  questToTrigger: {fileID: 0}

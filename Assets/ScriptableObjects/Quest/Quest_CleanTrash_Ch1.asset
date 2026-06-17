@@ -25,7 +25,7 @@ MonoBehaviour:
   reward:
     goldAmount: 100
     reputationAmount: 5
-    rewardDescription: "+50 V\xE0ng, +5 Danh Ti\u1EBFng"
+    rewardDescription: "+100 V\u00E0ng, +5 Danh Ti\u1EBFng"
   onStartDialogue: {fileID: 0}
   onCompleteDialogue: {fileID: 11400000, guid: d1e87026ee8cf9f498b788235c0353dc, type: 2}
   nextQuest: {fileID: 0}

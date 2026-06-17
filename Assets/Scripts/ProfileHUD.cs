@@ -21,6 +21,7 @@ public class ProfileHUD : MonoBehaviour
     public string playerName = "Elara";
     public int currentLevel = 12;
     public int currentCoins = 4250;
+    public int currentReputation = 0; // Điểm Danh Tiếng (Reputation) tích luỹ từ nhiệm vụ
     public float maxEnergy = 100f;
     public float currentEnergy = 88f;
 
@@ -80,6 +81,13 @@ public class ProfileHUD : MonoBehaviour
         currentCoins += amount;
         UpdateProfileUI();
         Debug.Log("Đã cộng " + amount + " vàng!");
+    }
+
+    public void AddReputation(int amount)
+    {
+        currentReputation += amount;
+        Debug.Log("Đã cộng " + amount + " điểm Danh Tiếng! (Tổng: " + currentReputation + ")");
+        // TODO: Nếu sau này có thanh/ố hiển thị Danh Tiếng thì cập nhật UI tại đây.
     }
 
     public void SpendEnergy(float amount)

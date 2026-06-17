@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33b247df677e4134dab24e4c094cb87c, type: 3}
+  m_Name: CuBa_Quest2_Complete
+  m_EditorClassIdentifier: Assembly-CSharp::EcoVillage.Dialogue.DialogueData
+  dialogueID: CuBa_Quest2_Complete
+  lines:
+  - speakerName: "Cụ Bá"
+    speakerPortrait: {fileID: 0}
+    dialogueText: "Cây cầu vững chãi như xưa rồi! Cụ nghe tiếng bước chân qua cầu mà thấy ấm cả lòng."
+    isPlayerChoice: 0
+    triggerEventName:
+  - speakerName: "Cụ Bá"
+    speakerPortrait: {fileID: 0}
+    dialogueText: "Cháu giỏi thật đấy. Có cháu, cụ thấy làng mình vẫn còn hy vọng lắm."
+    isPlayerChoice: 0
+    triggerEventName:
+  branchDialogues: []
+  nextDialogue: {fileID: 11400000, guid: 31df18d0e19e4401896bfa1d5cd69e5b, type: 2}
+  questToTrigger: {fileID: 0}

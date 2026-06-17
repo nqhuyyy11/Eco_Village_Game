@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33b247df677e4134dab24e4c094cb87c, type: 3}
+  m_Name: CuBa_GiveQuest3
+  m_EditorClassIdentifier: Assembly-CSharp::EcoVillage.Dialogue.DialogueData
+  dialogueID: CuBa_GiveQuest3
+  lines:
+  - speakerName: "Cụ Bá"
+    speakerPortrait: {fileID: 0}
+    dialogueText: "Còn một việc hệ trọng nữa, cháu à. Cái giếng cổ đầu làng, nguồn nước bao đời của Green Valley, giờ đã cạn khô và hư hỏng cả rồi."
+    isPlayerChoice: 0
+    triggerEventName:
+  - speakerName: "Cụ Bá"
+    speakerPortrait: {fileID: 0}
+    dialogueText: "Không có nước sạch thì chẳng giữ được ai ở lại. Cháu gom giúp cụ chừng 10 viên đá rồi tu sửa lại cái giếng nhé."
+    isPlayerChoice: 0
+    triggerEventName:
+  - speakerName: "Cụ Bá"
+    speakerPortrait: {fileID: 0}
+    dialogueText: "Khôi phục được mạch nước ấy, coi như cháu đã hồi sinh lại trái tim của cả thung lũng này."
+    isPlayerChoice: 0
+    triggerEventName: QuestStarted
+  branchDialogues: []
+  nextDialogue: {fileID: 0}
+  questToTrigger: {fileID: 11400000, guid: 225283d54dd749bb837efb90bbd5d2ae, type: 2}

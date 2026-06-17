@@ -240,19 +240,26 @@ namespace EcoVillage.Quest
             }
         }
 
+        private ProfileHUD _profileHUD;
+
         private void GiveReward(QuestReward reward)
         {
             if (reward == null) return;
 
-            // Kết nối với ProfileHUD / PlayerData để cộng vàng và Reputation
-            // Thành viên 2 (Inventory) sẽ cung cấp PlayerData.Instance
-            // Thành viên 4 (Reputation) sẽ cung cấp ReputationManager.Instance
-            // Tạm thời dùng log để test:
-            Debug.Log($"[QuestManager] 💰 Thưởng: +{reward.goldAmount} Vàng, +{reward.reputationAmount} Reputation");
+            // Tìm ProfileHUD trong scene (cache lại để khỏi tìm mỗi lần)
+            if (_profileHUD == null) _profileHUD = Object.FindFirstObjectByType<ProfileHUD>();
 
-            // TODO: Uncomment khi Thành viên 2 và 4 hoàn thành phần của họ:
-            // PlayerData.Instance?.AddGold(reward.goldAmount);
-            // ReputationManager.Instance?.AddReputation(reward.reputationAmount);
+            if (_profileHUD != null)
+            {
+                if (reward.goldAmount != 0) _profileHUD.AddCoins(reward.goldAmount);
+                if (reward.reputationAmount != 0) _profileHUD.AddReputation(reward.reputationAmount);
+            }
+            else
+            {
+                Debug.LogWarning("[QuestManager] Không tìm thấy ProfileHUD trong scene để cộng thưởng!");
+            }
+
+            Debug.Log($"[QuestManager] 💰 Thưởng: +{reward.goldAmount} Vàng, +{reward.reputationAmount} Danh Tiếng");
         }
     }
 }

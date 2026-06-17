@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 821856475a5b2c44d80de663aa18f7ee, type: 3}
+  m_Name: FarmData
+  m_EditorClassIdentifier: Assembly-CSharp::EcoVillage.Core.Building.BuildingData
+  buildingID: farm
+  displayName: "N\xF4ng Tr\u1EA1i H\u1EEFu C\u01A1"
+  description: "Cung c\u1EA5p n\xF4ng s\u1EA3n s\u1EA1ch cho d\xE2n l\xE0ng."
+  prefab: {fileID: 7015402957057702523, guid: 383cfffd85d9e4740bce9d1c5b4f8428, type: 3}
+  previewSprite: {fileID: 6437738476519406127, guid: c940abca1f0451b4283301c509da48e3, type: 3}
+  gridSize: {x: 2, y: 2}
+  goldCost: 100
+  woodCost: 10
+  stoneCost: 0
+  reputationPoints: 10
+  isMandatoryForVictory: 0
