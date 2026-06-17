@@ -4,7 +4,8 @@
 Tài liệu này hướng dẫn bạn **kéo-thả và cấu hình** trong Unity để chạy trọn vẹn Chương I.
 Phần code + dữ liệu (.asset) + ảnh placeholder **đã được tạo sẵn**. Việc của bạn là gắn chúng vào scene **MainScene**.
 
-> ⏱️ Thời gian dự kiến: 30–45 phút. Làm tuần tự từ Bước 0 → Bước 7.
+> 📋 Danh sách đầy đủ những gì đã làm/sửa: xem [NhatKy_ThayDoi.md](NhatKy_ThayDoi.md).
+> ⏱️ Thời gian dự kiến: 30–45 phút. Làm tuần tự từ Bước 0 → Bước 8.
 
 ---
 
@@ -47,6 +48,8 @@ Gặp Cụ Bá → [Quest 1] Dọn rác → [Quest 2] Gỗ + Cầu → [Quest 3]
 4. Mở thư mục `Assets/ScriptableObjects/Quest`, bấm vào `Quest_CollectWood_Ch1`.
    Nhìn cửa sổ **Inspector** bên phải: phải thấy đúng "Nhịp Cầu Nối Lại", 2 steps (Wood 20, WoodenBridge 1).
    → Nếu hiện đúng nghĩa là file tôi tạo đã đọc được. ✅
+
+> 💾 **Sau khi Unity import xong, hãy commit + push các file `.meta` mới Unity vừa tạo** cho `ChapterCompleteUI.cs` và 2 ảnh trong `Sprites/Chapter1/`. Nếu không, mỗi máy sẽ tự sinh GUID khác nhau → đứt tham chiếu khi cả nhóm làm chung.
 
 ---
 
@@ -187,7 +190,25 @@ git config merge.unityyamlmerge.driver '"C:/Program Files/Unity/Hub/Editor/6000.
 ```
 *(Sửa lại đường dẫn cho đúng nơi cài Unity của bạn.)*
 
-Từ giờ khi merge bị đụng scene/prefab, Git sẽ tự dùng công cụ của Unity để gộp thay vì làm hỏng file.
+Từ giờ khi merge bị đụng scene/prefab, Git sẽ ưu tiên dùng công cụ của Unity để gộp.
+
+> ⚠️ **CẢNH BÁO (đã gặp thật):** UnityYAMLMerge nếu **không có tool fallback** (như p4merge/TortoiseMerge) có thể **âm thầm làm MẤT thay đổi của người khác** mà không báo conflict. Cách an toàn khi merge scene:
+> 1. Sau khi `git merge`, **kiểm tra kích thước file** scene xem có hợp lý không (không bị nhỏ đi bất thường).
+> 2. Nếu nghi ngờ, `git merge --abort`, gỡ tạm driver (`git config --remove-section merge.unityyamlmerge`) rồi merge lại bằng **text-merge mặc định** — nó để lại marker `<<<<<<<` để bạn **tự sửa tay**, nhìn thấy rõ cả 2 phía, an toàn hơn.
+> 3. Luôn mở lại scene trong Unity sau khi merge để kiểm tra mắt thường trước khi push.
+
+---
+
+## 8. KIỂM TRA COLLIDER CHẶN ĐỊA HÌNH (từ nhánh David)
+
+Khi merge nhánh David về, MainScene đã có sẵn **4 vùng va chạm** chặn người chơi đi xuyên sông/núi. Bạn chỉ cần kiểm tra lại:
+
+1. Mở `MainScene`, trong **Hierarchy** tìm 4 object: `Vung_can_song`, `Vung_can_song2`, `Vung_can_song3`, `Vung_Cản_Nui_1`.
+2. Bấm từng cái, ở **Scene view** xem đường viền collider (màu xanh lá) có **trùng với sông/núi** trên map không.
+3. Nếu lệch (do David đặt theo map của ổng): chỉ cần **kéo lại vị trí**, hoặc với `EdgeCollider2D`/`PolygonCollider2D` bấm **Edit Collider** rồi kéo các điểm cho khít.
+4. Vào **Play**, thử đi nhân vật vào sông/núi → phải bị chặn lại.
+
+> Nếu chưa thấy 4 object này: có thể bạn đang mở scene cũ. Đảm bảo đã `git pull` về commit merge mới nhất (`4e33b6a6`).
 
 ---
 
@@ -201,6 +222,7 @@ Vào **Play** và đi hết mạch:
 - [ ] Gom đủ **10 Đá** → khôi phục **Giếng** → hội thoại trao cuộn giấy + giới thiệu Lâm & Mai Vy.
 - [ ] Hiện màn **"HOÀN THÀNH CHƯƠNG I"**.
 - [ ] Số **vàng** ở HUD tăng sau mỗi quest (100 → 150 → 200).
+- [ ] Nhân vật **không đi xuyên** qua sông/núi (collider hoạt động).
 
 ---
 
