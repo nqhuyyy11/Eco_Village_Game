@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 821856475a5b2c44d80de663aa18f7ee, type: 3}
+  m_Name: TouristCenterData
+  m_EditorClassIdentifier: Assembly-CSharp::EcoVillage.Core.Building.BuildingData
+  buildingID: tourist_center
+  displayName: "Trung T\xE2m \u0110\xF3n Kh\xE1ch"
+  description: "N\u01A1i ti\u1EBFp \u0111\xF3n v\xE0 gi\u1EDBi thi\u1EC7u tour du
+    l\u1ECBch sinh th\xE1i."
+  prefab: {fileID: 0}
+  previewSprite: {fileID: 0}
+  gridSize: {x: 3, y: 3}
+  goldCost: 500
+  woodCost: 40
+  stoneCost: 20
+  reputationPoints: 20
+  isMandatoryForVictory: 1

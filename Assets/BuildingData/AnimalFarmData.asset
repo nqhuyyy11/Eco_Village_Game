@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 821856475a5b2c44d80de663aa18f7ee, type: 3}
+  m_Name: AnimalFarmData
+  m_EditorClassIdentifier: Assembly-CSharp::EcoVillage.Core.Building.BuildingData
+  buildingID: animal_farm
+  displayName: "Trang Tr\u1EA1i Ch\u0103n Nu\xF4i"
+  description: "Ch\u0103n nu\xF4i gia s\xFAc h\u1EEFu c\u01A1 k\u1EBFt h\u1EE3p l\xE0m
+    ph\xE2n b\xF3n sinh h\u1ECDc."
+  prefab: {fileID: 3690338823726903790, guid: 043e3a097de4c754b9739d03415de20e, type: 3}
+  previewSprite: {fileID: -9032679894510146780, guid: 34b87b4eb793f2b43b1f00ce9bdcb639, type: 3}
+  gridSize: {x: 3, y: 3}
+  goldCost: 200
+  woodCost: 20
+  stoneCost: 10
+  reputationPoints: 15
+  isMandatoryForVictory: 0
