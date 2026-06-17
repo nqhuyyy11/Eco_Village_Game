@@ -133,17 +133,27 @@ namespace EcoVillage.Quest
                     if (step.targetID != targetID) continue;
 
                     step.AddProgress(amount);
+                    bool justCompleted = step.isCompleted; // bước này vốn chưa xong (đã lọc ở trên)
                     anyUpdated = true;
 
                     Debug.Log($"[QuestManager] 📋 '{quest.questName}' → {step.GetFullDescription()}");
-                    
-                    // Hiện thông báo (Ví dụ: "Dọn đống rác: 1/5")
+
+                    // Hiện thông báo thu thập
                     var notifier = UI.NotificationManager.Instance;
                     if (notifier == null) notifier = Object.FindFirstObjectByType<UI.NotificationManager>();
 
                     if (notifier != null)
                     {
-                        notifier.ShowNotification(step.GetFullDescription());
+                        if (justCompleted)
+                        {
+                            // Vừa thu thập ĐỦ -> thông báo hoàn tất (xanh lá)
+                            notifier.ShowNotification($"<color=#00FF00>✅ Đã đủ: {step.stepDescription} ({step.GetProgressString()})</color>");
+                        }
+                        else
+                        {
+                            // Mỗi lần thu thập -> "+N | Thu thập Gỗ: 5/20"
+                            notifier.ShowNotification($"<color=#FFD700>+{amount}</color>  {step.GetFullDescription()}");
+                        }
                     }
 
                     // Kiểm tra toàn bộ quest hoàn thành không
