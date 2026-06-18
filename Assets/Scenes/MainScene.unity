@@ -4318,28 +4318,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.2, y: 0.37}
   m_EdgeRadius: 0
---- !u!114 &1398005551
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1398005547}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fffdf87c06b4c394c9dc3bd69bf100b8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::EcoVillage.Interaction.InteractableObject
-  targetID: wood
-  interactionType: 0
-  amountPerInteraction: 5
-  resourceDropType: 
-  resourceDropAmount: 1
-  energyCost: 10
-  destroyOnComplete: 1
-  interactionsRequired: 1
-  interactPromptUI: {fileID: 0}
-  interactEffect: {fileID: 0}
 --- !u!1 &1418933495
 GameObject:
   m_ObjectHideFlags: 0
